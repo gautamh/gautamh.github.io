@@ -1,13 +1,86 @@
 <html>
         <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <meta name="description" content="">
-                <meta name="author" content="">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <title>Window Seat</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <style>
+
+            .jumbotron {
+                height: 100%;
+                max-height: 250;
+            }
+
+            .main-content {
+                margin-top: 30px;
+            }
+            
+            @media (min-width: 768px) {
+                .header {
+                    max-height: 260px;
+                }
+                .header-img {
+                    height: 100%; 
+                    width: auto;
+                }
+            }
+
+            @media (max-width: 768px) {
+                
+                .header-left {
+                    padding: 0px;
+                    margin: 0px; 
+
+                }
+
+                .header-right {
+                    padding: 0px 40px;
+                    margin: 0px; 
+                }
+
+                .header-img {
+                    width: 100%;
+                    height: auto;
+                    
+                }
+
+                .main-content {
+                    padding: 0px 40px;
+                }
+            }
+            </style>
         </head>
     <body>
-        <h1>Gautam Hathi's webpage</h1>
-        <h3>Still under construction! Coming soon to an internet near you...</h3>
-        <h3>Find me on Twitter <a href="https://twitter.com/gautamhathi">@gautamhathi</a> and on <a href="https://github.com/gautamh">Github</a></h3>
+        <main role="main" >
+            <div class="row header">
+                <div class="col-md-7 offset-md-1 header-left">
+                    <div class="jumbotron">
+                        <h1>Gautam Hathi</h1>
+                        <hr/>
+                        <h4><i>writing code and doing other things...</i></h4>
+                    </div>
+                </div>
+                <div class="col-md-3 header-right"> 
+                    <img class="header-img" src="GKH_FB_4_3.jpg"/>
+                </div>
+                
+            </div>
+            <div class="row main-content">
+                <div class="col-md-10 offset-md-2">
+                    <h1>Gautam Hathi's webpage</h1>
+                    <h3>Still under construction! Coming soon to an internet near you...</h3>
+                    <h3>Find me on Twitter <a href="https://twitter.com/gautamhathi">@gautamhathi</a> and on <a href="https://github.com/gautamh">Github</a></h3>
+                </div>
+            </div>
+        </main>
+        
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
