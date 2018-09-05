@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "project-title": "Who The Hill", 
+            "project-text": "As an intern on the New York Times' Interactive News team, I co-created an facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member.",
+            "img-src": "shazongress.png"
+        },
+        {
+            "project-title": "Thumbnail 2",
+            "project-text": "I am the very model of a modern major general.",
+            "img-src": ""
+        },
+        {
+            "project-title": "Thumbnail 3",
+            "project-text": "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.",
+            "img-src": ""
+        }
+    ]
+}
