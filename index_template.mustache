@@ -82,46 +82,18 @@
                     <h3>(Still under construction! Check back soon for more...)</h3>
                 </div>
                 <div class="row col-md-10 offset-md-1"> 
+                    {{#projects}}
                     <div class="col-sm-6 col-md-4"> 
                         <div class="thumbnail"> 
-                            <img alt="100%x200" src="shazongress.png" data-holder-rendered="true" style="height: 200px; width: auto; display: block; margin: auto;"> 
+                            <img alt="100%x200" src="{{img-src}}" data-holder-rendered="true" style="height: 200px; width: auto; display: block; margin: auto;"> 
                             <div class="caption"> 
-                                <h3>Who The Hill</h3> 
-                                <p class="caption-text">A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times&#39; Interactive News team.</p> 
-                                <p><a href="https:&#x2F;&#x2F;open.nytimes.com&#x2F;how-the-new-york-times-uses-software-to-recognize-members-of-congress-29b46dd426c7" class="btn btn-default" role="button">More...</a></p> 
+                                <h3>{{project-title}}</h3> 
+                                <p class="caption-text">{{project-text}}</p> 
+                                <p><a href="{{link}}" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
                         </div> 
                     </div> 
-                    <div class="col-sm-6 col-md-4"> 
-                        <div class="thumbnail"> 
-                            <img alt="100%x200" src="storytracer.png" data-holder-rendered="true" style="height: 200px; width: auto; display: block; margin: auto;"> 
-                            <div class="caption"> 
-                                <h3>StoryTracer</h3> 
-                                <p class="caption-text">A Chrome extension to identify the source information that a web page is based upon. Created for the Duke Reporters&#39; Lab.</p> 
-                                <p><a href="https:&#x2F;&#x2F;reporterslab.org&#x2F;storytracer-google-chrome-extension-original-source&#x2F;" class="btn btn-default" role="button">More...</a></p> 
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="col-sm-6 col-md-4"> 
-                        <div class="thumbnail"> 
-                            <img alt="100%x200" src="factpopup.jpg" data-holder-rendered="true" style="height: 200px; width: auto; display: block; margin: auto;"> 
-                            <div class="caption"> 
-                                <h3>FactPopUp</h3> 
-                                <p class="caption-text">A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters&#39; Lab.</p> 
-                                <p><a href="https:&#x2F;&#x2F;www.poynter.org&#x2F;news&#x2F;tired-second-screen-tool-will-live-fact-check-debate-you" class="btn btn-default" role="button">More...</a></p> 
-                            </div> 
-                        </div> 
-                    </div> 
-                    <div class="col-sm-6 col-md-4"> 
-                        <div class="thumbnail"> 
-                            <img alt="100%x200" src="talking_points.png" data-holder-rendered="true" style="height: 200px; width: auto; display: block; margin: auto;"> 
-                            <div class="caption"> 
-                                <h3>Talking Points</h3> 
-                                <p class="caption-text">A data analysis and visualization project that looked at speeches made by members of Congress. This was a class project that used to live on a website but still has interesting components available to look at.</p> 
-                                <p><a href="https:&#x2F;&#x2F;app.powerbi.com&#x2F;view?r&#x3D;eyJrIjoiZjJjOWExZjUtYzAwMS00NmJhLWJhNWEtZjZmYjUxYWVjNzY2IiwidCI6IjYxOWUzOWZmLWQ2MTItNDFmZi1iYjEzLTI3Mjk0Nzg2MjQ4MSIsImMiOjN9" class="btn btn-default" role="button">More...</a></p> 
-                            </div> 
-                        </div> 
-                    </div> 
+                    {{/projects}}
                 </div>
             </div>
         </main>

@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "project-title": "Who The Hill", 
+            "project-text": "A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times' Interactive News team.",
+            "img-src": "shazongress.png",
+            "link": "https://open.nytimes.com/how-the-new-york-times-uses-software-to-recognize-members-of-congress-29b46dd426c7"
+        },
+        {
+            "project-title": "StoryTracer",
+            "project-text": "A Chrome extension to identify the source information that a web page is based upon. Created for the Duke Reporters' Lab.",
+            "img-src": "storytracer.png",
+            "link": "https://reporterslab.org/storytracer-google-chrome-extension-original-source/"
+        },
+        {
+            "project-title": "FactPopUp",
+            "project-text": "A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters' Lab.",
+            "img-src": "factpopup.jpg",
+            "link": "https://www.poynter.org/news/tired-second-screen-tool-will-live-fact-check-debate-you"
+        },
+        {
+            "project-title": "Talking Points",
+            "project-text": "A data analysis and visualization project that looked at speeches made by members of Congress. This was a class project that used to live on a website but still has interesting components available to look at.",
+            "img-src": "talking_points.png",
+            "link": "https://app.powerbi.com/view?r=eyJrIjoiZjJjOWExZjUtYzAwMS00NmJhLWJhNWEtZjZmYjUxYWVjNzY2IiwidCI6IjYxOWUzOWZmLWQ2MTItNDFmZi1iYjEzLTI3Mjk0Nzg2MjQ4MSIsImMiOjN9"
+        }
+    ]
+}
