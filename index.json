@@ -2,18 +2,23 @@
     "projects": [
         {
             "project-title": "Who The Hill", 
-            "project-text": "As an intern on the New York Times' Interactive News team, I co-created an facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member.",
+            "project-text": "A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times' Interactive News team.",
             "img-src": "shazongress.png"
         },
         {
-            "project-title": "Thumbnail 2",
-            "project-text": "I am the very model of a modern major general.",
-            "img-src": ""
+            "project-title": "StoryTracer",
+            "project-text": "A Chrome extension to identify the source information that a web page is based upon. Created for the Duke Reporters' Lab.",
+            "img-src": "storytracer.png"
         },
         {
-            "project-title": "Thumbnail 3",
-            "project-text": "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty and dedicated to the proposition that all men are created equal.",
-            "img-src": ""
+            "project-title": "FactPopUp",
+            "project-text": "A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters' Lab.",
+            "img-src": "factpopup.jpg"
+        },
+        {
+            "project-title": "Talking Points",
+            "project-text": "A data analysis and visualization project that looked at speeches made by members of Congress. This was a class project that used to live on a website but still has interesting components available to look at.",
+            "img-src": "talking_points.png"
         }
     ]
 }
