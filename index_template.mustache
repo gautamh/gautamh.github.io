@@ -20,8 +20,28 @@
             body {
                 overflow-x: hidden;
             }
+
+            @media only screen and (max-width: 768px) and (orientation: portrait) {
+                .header-img {
+                    width: 75%;
+                    height: auto;
+                    display: block;
+                    margin: auto;
+                }
+
+                .header-left {
+                    padding-right: 0px;
+                    padding-left: 0px;
+                    width: 100vw;
+                }
+
+                .row {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                }
+            }
             
-            @media (min-width: 768px) {
+            @media only screen and (min-width: 768px) {
                 .header {
                     max-height: 260px;
                 }
@@ -35,7 +55,7 @@
                 }
             }
 
-            @media (max-width: 768px) {
+            @media only screen and (max-width: 768px) and (orientation: landscape) {
                 
                 .header-left {
                     padding: 0px;
@@ -63,12 +83,13 @@
                     height: 175px;
                 }
             }
+
             </style>
         </head>
     <body>
         <main role="main" >
             <div class="row header">
-                <div class="col-md-7 offset-md-1 header-left">
+                <div class="header-left col-md-7 col-sm-12 offset-md-1">
                     <div class="jumbotron">
                         <h1>Gautam Hathi</h1>
                         <hr/>
