@@ -23,6 +23,18 @@
             "project-text": "A data analysis and visualization project that looked at speeches made by members of Congress. This was a class project that used to live on a website but still has interesting components available to look at.",
             "img-src": "talking_points.PNG",
             "link": "https://app.powerbi.com/view?r=eyJrIjoiZjJjOWExZjUtYzAwMS00NmJhLWJhNWEtZjZmYjUxYWVjNzY2IiwidCI6IjYxOWUzOWZmLWQ2MTItNDFmZi1iYjEzLTI3Mjk0Nzg2MjQ4MSIsImMiOjN9"
+        },
+        {
+            "project-title": "Window Seat",
+            "project-text": "A quick analysis of which side of the plane has the better view.",
+            "img-src": "window_seat.PNG",
+            "link": "https://gautamh.github.io/window-seat/"
+        },
+        {
+            "project-title": "DSG Voting Networks",
+            "project-text": "A news article I wrote analyzing voting networks and phantom political parties in Duke's student government.",
+            "img-src": "dsg_voting_networks.PNG",
+            "link": "https://www.dukechronicle.com/article/2016/05/dsg-records-show-networks-of-voting-patterns"
         }
     ]
 }
