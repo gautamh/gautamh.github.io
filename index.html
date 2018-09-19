@@ -32,6 +32,16 @@
                 overflow: hidden;
             }
 
+            .navbar {
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            .nav-link {
+                padding-top: 4px;
+                padding-bottom: 4px;
+            }
+
             @media only screen and (max-width: 768px) and (orientation: portrait) {
                 .header-img {
                     width: 75%;
@@ -109,6 +119,29 @@
     <body>
         <main role="main" >
             <div class="row header">
+                <div class="header-left col-md-10 offset-md-1">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#writing">Writing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                </div>
+            </div>
+            <div class="row header">
                 <div class="header-left col-md-7 col-sm-12 offset-md-1">
                     <div class="jumbotron">
                         <h1>Gautam Hathi</h1>
@@ -122,70 +155,115 @@
                 
             </div>
             <div class="row main-content">
-                <div class="col-md-10 offset-md-1">
+                <div class="col-md-10 offset-md-1" id="projects">
                     <h1>Projects</h1>
                 </div>
                 <div class="row col-md-10 offset-md-1"> 
                     <div class="col-sm-6 col-md-4"> 
+                        <h3>Who The Hill</h3> 
                         <div class="thumbnail"> 
                             <img class="project-img" alt="100%x200" src="shazongress.png" data-holder-rendered="true"> 
                             <div class="caption"> 
-                                <h3>Who The Hill</h3> 
                                 <p class="caption-text">A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times&#39; Interactive News team.</p> 
                                 <p><a href="https:&#x2F;&#x2F;open.nytimes.com&#x2F;how-the-new-york-times-uses-software-to-recognize-members-of-congress-29b46dd426c7" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
-                        </div> 
+                        </div>
                     </div> 
                     <div class="col-sm-6 col-md-4"> 
+                        <h3>StoryTracer</h3> 
                         <div class="thumbnail"> 
                             <img class="project-img" alt="100%x200" src="storytracer.png" data-holder-rendered="true"> 
                             <div class="caption"> 
-                                <h3>StoryTracer</h3> 
                                 <p class="caption-text">A Chrome extension to identify the source information that a web page is based upon. Created for the Duke Reporters&#39; Lab.</p> 
                                 <p><a href="https:&#x2F;&#x2F;reporterslab.org&#x2F;storytracer-google-chrome-extension-original-source&#x2F;" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
-                        </div> 
+                        </div>
                     </div> 
                     <div class="col-sm-6 col-md-4"> 
+                        <h3>FactPopUp</h3> 
                         <div class="thumbnail"> 
                             <img class="project-img" alt="100%x200" src="factpopup.jpg" data-holder-rendered="true"> 
                             <div class="caption"> 
-                                <h3>FactPopUp</h3> 
                                 <p class="caption-text">A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters&#39; Lab.</p> 
                                 <p><a href="https:&#x2F;&#x2F;www.poynter.org&#x2F;news&#x2F;tired-second-screen-tool-will-live-fact-check-debate-you" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
-                        </div> 
+                        </div>
                     </div> 
                     <div class="col-sm-6 col-md-4"> 
+                        <h3>Talking Points</h3> 
                         <div class="thumbnail"> 
                             <img class="project-img" alt="100%x200" src="talking_points.PNG" data-holder-rendered="true"> 
                             <div class="caption"> 
-                                <h3>Talking Points</h3> 
                                 <p class="caption-text">A data analysis and visualization project that looked at speeches made by members of Congress. This was a class project that used to live on a website but still has interesting components available to look at.</p> 
                                 <p><a href="https:&#x2F;&#x2F;app.powerbi.com&#x2F;view?r&#x3D;eyJrIjoiZjJjOWExZjUtYzAwMS00NmJhLWJhNWEtZjZmYjUxYWVjNzY2IiwidCI6IjYxOWUzOWZmLWQ2MTItNDFmZi1iYjEzLTI3Mjk0Nzg2MjQ4MSIsImMiOjN9" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
-                        </div> 
+                        </div>
                     </div> 
                     <div class="col-sm-6 col-md-4"> 
+                        <h3>Window Seat</h3> 
                         <div class="thumbnail"> 
                             <img class="project-img" alt="100%x200" src="window_seat.PNG" data-holder-rendered="true"> 
                             <div class="caption"> 
-                                <h3>Window Seat</h3> 
                                 <p class="caption-text">A quick analysis of which side of the plane has the better view.</p> 
                                 <p><a href="https:&#x2F;&#x2F;gautamh.github.io&#x2F;window-seat&#x2F;" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
-                        </div> 
+                        </div>
                     </div> 
                     <div class="col-sm-6 col-md-4"> 
+                        <h3>DSG Voting Networks</h3> 
                         <div class="thumbnail"> 
                             <img class="project-img" alt="100%x200" src="dsg_voting_networks.png" data-holder-rendered="true"> 
                             <div class="caption"> 
-                                <h3>DSG Voting Networks</h3> 
                                 <p class="caption-text">A news article I wrote analyzing voting networks and phantom political parties in Duke&#39;s student government.</p> 
                                 <p><a href="https:&#x2F;&#x2F;www.dukechronicle.com&#x2F;article&#x2F;2016&#x2F;05&#x2F;dsg-records-show-networks-of-voting-patterns" class="btn btn-default" role="button">More...</a></p> 
                             </div> 
-                        </div> 
+                        </div>
                     </div> 
+                </div>
+                <div class="col-md-10 offset-md-1" id="writing">
+                    <h1>Writing</h1>
+                </div>
+                <div class="row col-md-10 offset-md-1"> 
+                    <div class="col-sm-6 col-md-4">
+                        <blockquote class="blockquote">
+                            <h3>&#39;I&#39;ve not encountered a process...that is less fair&#39;</h3> 
+                            <p class="mb-0">"&#39;I&#39;ve not encountered a process or an administration of the process in any school that is less fair than the undergraduate conduct board hearings that Duke students go through,&#39; said Robert Ekstrand, Law School &#39;98—a Durham lawyer who was involved in the lacrosse case and has worked on hundreds of disciplinary cases involving students at Duke and institutions across the country."</p>
+                            <footer class="blockquote-footer"><cite title="Source Title">Duke Chronicle</cite></footer>
+                            <p><a href="https:&#x2F;&#x2F;www.dukechronicle.com&#x2F;article&#x2F;2017&#x2F;05&#x2F;ive-not-encountered-a-process-that-is-less-fair" class="btn btn-default" role="button">Read...</a></p> 
+                        </blockquote>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <blockquote class="blockquote">
+                            <h3>&#39;A very young person in the White House on a power trip&#39;</h3> 
+                            <p class="mb-0">"Stephen Miller’s path from Duke to Capitol Hill to the White House foreshadowed his actions in the Trump administration."</p>
+                            <footer class="blockquote-footer"><cite title="Source Title">Duke Chronicle</cite></footer>
+                            <p><a href="https:&#x2F;&#x2F;www.dukechronicle.com&#x2F;article&#x2F;2017&#x2F;01&#x2F;very-young-person-in-the-white-house-on-a-power-trip" class="btn btn-default" role="button">Read...</a></p> 
+                        </blockquote>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <blockquote class="blockquote">
+                            <h3>Duke community feels threat from Trump</h3> 
+                            <p class="mb-0">"Although the volatility in the stock market was temporary, the anxiety flowing through campus was more permanent. Student activists who had spent years working for policy goals shared with Hillary Clinton saw their hopes come tumbling down, and students in groups—including Muslims, Latinx, immigrants and women—that had borne the brunt of Donald Trump’s vicious attacks saw his as a personal threat."</p>
+                            <footer class="blockquote-footer"><cite title="Source Title">Duke Chronicle</cite></footer>
+                            <p><a href="https:&#x2F;&#x2F;www.dukechronicle.com&#x2F;article&#x2F;2016&#x2F;11&#x2F;duke-community-feels-threat-from-trump" class="btn btn-default" role="button">Read...</a></p> 
+                        </blockquote>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <blockquote class="blockquote">
+                            <h3>The Rules of the Internet Game</h3> 
+                            <p class="mb-0">"How billions of people around the world interact with, profit from, or get damaged by the internet will be determined by the interactions between the lobbying dollars in Silicon Valey and the egos in Washington DC."</p>
+                            <footer class="blockquote-footer"><cite title="Source Title">Duke Political Review</cite></footer>
+                            <p><a href="https:&#x2F;&#x2F;issuu.com&#x2F;dukedpr&#x2F;docs&#x2F;dpr_2015_spring_web&#x2F;8" class="btn btn-default" role="button">Read...</a></p> 
+                        </blockquote>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <blockquote class="blockquote">
+                            <h3>A Clash of Resurgent Empires</h3> 
+                            <p class="mb-0">"India and China have been fighting over their bordr for more than fifty years. There may be signs that things are changing, but is either country willing to find an agreement, and could things really be getting worse?"</p>
+                            <footer class="blockquote-footer"><cite title="Source Title">Duke Political Review</cite></footer>
+                            <p><a href="https:&#x2F;&#x2F;issuu.com&#x2F;dukedpr&#x2F;docs&#x2F;dprfall2014_1&#x2F;8" class="btn btn-default" role="button">Read...</a></p> 
+                        </blockquote>
+                    </div>
                 </div>
             </div>
         </main>
