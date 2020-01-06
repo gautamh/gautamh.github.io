@@ -23,6 +23,7 @@
             <meta name="theme-color" content="#ffffff">
             <title>Gautam Hathi</title>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" />
             <style>
 
             .jumbotron {
@@ -131,6 +132,76 @@
                 }
             }
 
+            #photo-imgs {
+                /* Prevent vertical gaps */
+                line-height: 0;
+                display: block;
+                z-index: 1;
+                
+                -webkit-column-count: 5;
+                -webkit-column-gap:   8px;
+                -moz-column-count:    5;
+                -moz-column-gap:      0px;
+                column-count:         5;
+                column-gap:           8px;
+                margin-bottom:        25px;
+            }
+
+            #photo-imgs img {
+                /* Just in case there are inline attributes */
+                width: 300px;
+                height: auto !important;
+                
+                margin: 8px;
+                border: 10px;
+                
+                transition: all 0.3s;
+                overflow: visible;
+
+            }
+
+            #photo-imgs a {
+                /* Just in case there are inline attributes */
+                width: auto;
+                height: auto !important;
+                overflow: visible;
+            }
+
+            #photo-imgs img:hover {
+                transform: scale(1.05);
+                z-index: 99;
+            }
+
+            @media (max-width: 1600px) {
+                #photo-imgs {
+                    -moz-column-count:    4;
+                    -webkit-column-count: 4;
+                    column-count:         4;
+                }
+            }
+
+            @media (max-width: 1300px) {
+                #photo-imgs {
+                    -moz-column-count:    3;
+                    -webkit-column-count: 3;
+                    column-count:         3;
+                }
+            }
+            @media (max-width: 1000px) {
+                #photo-imgs {
+                    -moz-column-count:    2;
+                    -webkit-column-count: 2;
+                    column-count:         2;
+                }
+            }
+            @media (max-width: 700px) {
+                #photo-imgs {
+                    -moz-column-count:    1;
+                    -webkit-column-count: 1;
+                    column-count:         1;
+                }
+            }
+
             </style>
         </head>
     <body>
@@ -152,6 +223,9 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#writing">Writing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#photos">Photography</a>
                                 </li>
                             </ul>
                         </div>
@@ -204,6 +278,16 @@
                     </div>
                     {{/writing}}
                 </div>
+                <div class="col-md-10 offset-md-1" id="photos">
+                    <h1>Photography</h1>
+                </div>
+                <div class="row col-md-10 offset-md-1" id="photo-imgs"> 
+                    {{#photos}}
+                    <a href="{{img-src}}" data-fancybox="gallery" data-caption="{{caption}}">
+                        <img class="photo-img" src="{{img-src}}" data-holder-rendered="true"> 
+                    </a>
+                    {{/photos}}
+                </div>
             </div>
         </main>
         
@@ -213,5 +297,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
     </body>
 </html>
