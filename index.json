@@ -1,6 +1,12 @@
 {
     "projects": [
         {
+            "project-title": "ML for data generation",
+            "project-text": "A paper based on a project I worked on at Google to generate structured data by training Variational Auto Encoders.",
+            "img-src": "alala_path.PNG",
+            "link": "https://arxiv.org/abs/1904.10446"
+        },
+        {
             "project-title": "Who The Hill", 
             "project-text": "A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times' Interactive News team.",
             "img-src": "shazongress.png",
