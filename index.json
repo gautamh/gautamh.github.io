@@ -74,5 +74,35 @@
             "source": "Duke Political Review",
             "link": "https://issuu.com/dukedpr/docs/dprfall2014_1/8"
         }
+    ],
+    "photos": [
+        {
+            "img-src": "shazongress.png",
+            "caption": "Some caption 1"
+        },
+        {
+            "img-src": "storytracer.png",
+            "caption": "Some caption 2"
+        },
+        {
+            "img-src": "vertical_test.jpg",
+            "caption": "Some caption 7"
+        },
+        {
+            "img-src": "factpopup.jpg",
+            "caption": "Some caption 3"
+        },
+        {
+            "img-src": "window_seat.PNG",
+            "caption": "Some caption 5"
+        },
+        {
+            "img-src": "talking_points.PNG",
+            "caption": "Some caption 4"
+        },
+        {
+            "img-src": "dsg_voting_networks.png",
+            "caption": "Some caption 6"
+        }
     ]
 }
