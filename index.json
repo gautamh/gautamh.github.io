@@ -1,10 +1,22 @@
 {
     "projects": [
         {
+            "project-title": "ML for data generation",
+            "project-text": "A paper based on a project I worked on at Google to generate structured data by training Variational Auto Encoders.",
+            "img-src": "alala_path.PNG",
+            "link": "https://arxiv.org/abs/1904.10446"
+        },
+        {
             "project-title": "Who The Hill", 
             "project-text": "A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times' Interactive News team.",
             "img-src": "shazongress.png",
             "link": "https://open.nytimes.com/how-the-new-york-times-uses-software-to-recognize-members-of-congress-29b46dd426c7"
+        },
+        {
+            "project-title": "FactPopUp",
+            "project-text": "A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters' Lab.",
+            "img-src": "factpopup.jpg",
+            "link": "https://www.poynter.org/news/tired-second-screen-tool-will-live-fact-check-debate-you"
         },
         {
             "project-title": "StoryTracer",
@@ -13,10 +25,10 @@
             "link": "https://reporterslab.org/storytracer-google-chrome-extension-original-source/"
         },
         {
-            "project-title": "FactPopUp",
-            "project-text": "A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters' Lab.",
-            "img-src": "factpopup.jpg",
-            "link": "https://www.poynter.org/news/tired-second-screen-tool-will-live-fact-check-debate-you"
+            "project-title": "DSG Voting Networks",
+            "project-text": "A news article I wrote analyzing voting networks and phantom political parties in Duke's student government.",
+            "img-src": "dsg_voting_networks.png",
+            "link": "https://www.dukechronicle.com/article/2016/05/dsg-records-show-networks-of-voting-patterns"
         },
         {
             "project-title": "Talking Points",
@@ -29,12 +41,6 @@
             "project-text": "A quick analysis of which side of the plane has the better view.",
             "img-src": "window_seat.PNG",
             "link": "https://gautamh.github.io/window-seat/"
-        },
-        {
-            "project-title": "DSG Voting Networks",
-            "project-text": "A news article I wrote analyzing voting networks and phantom political parties in Duke's student government.",
-            "img-src": "dsg_voting_networks.png",
-            "link": "https://www.dukechronicle.com/article/2016/05/dsg-records-show-networks-of-voting-patterns"
         }
     ],
     "writing": [
