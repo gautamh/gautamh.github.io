@@ -77,32 +77,104 @@
     ],
     "photos": [
         {
-            "img-src": "shazongress.png",
-            "caption": "Some caption 1"
+            "img-src": "photos/site_photos-1.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-1.jpg",
+            "caption": "Sunset over Goat Rocks"
         },
         {
-            "img-src": "storytracer.png",
-            "caption": "Some caption 2"
+            "img-src": "photos/site_photos-2.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-2.jpg",
+            "caption": "Into the lens"
         },
         {
-            "img-src": "vertical_test.jpg",
-            "caption": "Some caption 7"
+            "img-src": "photos/site_photos-3.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-3.jpg",
+            "caption": "Looking into the sunset"
         },
         {
-            "img-src": "factpopup.jpg",
-            "caption": "Some caption 3"
+            "img-src": "photos/site_photos-4.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-4.jpg",
+            "caption": "San Francisco City Hall"
         },
         {
-            "img-src": "window_seat.PNG",
-            "caption": "Some caption 5"
+            "img-src": "photos/site_photos-5.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-5.jpg",
+            "caption": "A tree in snow"
         },
         {
-            "img-src": "talking_points.PNG",
-            "caption": "Some caption 4"
+            "img-src": "photos/site_photos-6.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-6.jpg",
+            "caption": "Sihlpromenade, Zürich"
         },
         {
-            "img-src": "dsg_voting_networks.png",
-            "caption": "Some caption 6"
+            "img-src": "photos/site_photos-7.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-7.jpg",
+            "caption": "An eclipse"
+        },
+        {
+            "img-src": "photos/site_photos-8.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-8.jpg",
+            "caption": "Shadows on the wall"
+        },
+        {
+            "img-src": "photos/site_photos-9.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-9.jpg",
+            "caption": "A swan"
+        },
+        {
+            "img-src": "photos/site_photos-10.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-10.jpg",
+            "caption": "Leavenworth, WA"
+        },
+        {
+            "img-src": "photos/site_photos-11.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-11.jpg",
+            "caption": "Star trails"
+        },
+        {
+            "img-src": "photos/site_photos-12.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-12.jpg",
+            "caption": "A mosque"
+        },
+        {
+            "img-src": "photos/site_photos-13.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-13.jpg",
+            "caption": "Dana, Jordan"
+        },
+        {
+            "img-src": "photos/site_photos-14.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-14.jpg",
+            "caption": "Stars over Wadi Rum"
+        },
+        {
+            "img-src": "photos/site_photos-15.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-15.jpg",
+            "caption": "Grossmunster"
+        },
+        {
+            "img-src": "photos/site_photos-16.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-16.jpg",
+            "caption": "Whirling Dervishes"
+        },
+        {
+            "img-src": "photos/site_photos-18.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-18.jpg",
+            "caption": "Dom Muncher"
+        },
+        {
+            "img-src": "photos/site_photos-19.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-19.jpg",
+            "caption": "Snowflakes on a flower"
+        },
+        {
+            "img-src": "photos/site_photos-20.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-20.jpg",
+            "caption": "Market Street"
+        },
+        {
+            "img-src": "photos/site_photos-21.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-21.jpg",
+            "caption": "Sunrise over San Francisco"
         }
     ]
 }
