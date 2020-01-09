@@ -131,13 +131,83 @@
                 }
             }
 
+            #photo-imgs {
+                /* Prevent vertical gaps */
+                line-height: 0;
+                display: block;
+                z-index: 1;
+                
+                -webkit-column-count: 5;
+                -webkit-column-gap:   8px;
+                -moz-column-count:    5;
+                -moz-column-gap:      0px;
+                column-count:         5;
+                column-gap:           8px;
+                margin-bottom:        25px;
+            }
+
+            #photo-imgs img {
+                /* Just in case there are inline attributes */
+                width: 280px;
+                height: auto !important;
+                
+                margin: 8px 0px;
+                border-width: 20px, 20px, 0px, 0px;
+                
+                transition: all 0.3s;
+                overflow: visible;
+
+            }
+
+            #photo-imgs a {
+                /* Just in case there are inline attributes */
+                width: auto;
+                height: auto !important;
+                overflow: visible;
+            }
+
+            #photo-imgs img:hover {
+                transform: scale(1.03);
+                z-index: 99;
+            }
+
+            @media (max-width: 1750px) {
+                #photo-imgs {
+                    -moz-column-count:    4;
+                    -webkit-column-count: 4;
+                    column-count:         4;
+                }
+            }
+
+            @media (max-width: 1450px) {
+                #photo-imgs {
+                    -moz-column-count:    3;
+                    -webkit-column-count: 3;
+                    column-count:         3;
+                }
+            }
+            @media (max-width: 1050px) {
+                #photo-imgs {
+                    -moz-column-count:    2;
+                    -webkit-column-count: 2;
+                    column-count:         2;
+                }
+            }
+            @media (max-width: 750px) {
+                #photo-imgs {
+                    -moz-column-count:    1;
+                    -webkit-column-count: 1;
+                    column-count:         1;
+                }
+            }
+
             </style>
         </head>
     <body>
         <main role="main" >
             <div class="row header">
                 <div class="header-left col-md-10 offset-md-1">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light navbar-static-top bg-light">
                         <a class="navbar-brand" href="#"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -152,6 +222,9 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#writing">Writing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#photos">Photography</a>
                                 </li>
                             </ul>
                         </div>
@@ -292,6 +365,72 @@
                         </blockquote>
                     </div>
                 </div>
+                <div class="col-md-10 offset-md-1" id="photos">
+                    <h1>Photography</h1>
+                    <p>In my free time I like to take photos. Here are some samples (click to enlarge and view in a gallery):</p>
+                </div>
+                <div class="row col-md-10 offset-md-1" id="photo-imgs"> 
+                    <a href="photos&#x2F;site_photos-1.jpg" data-fancybox="gallery" data-caption="Sunset over Goat Rocks">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-1.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-2.jpg" data-fancybox="gallery" data-caption="Into the lens">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-2.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-3.jpg" data-fancybox="gallery" data-caption="Looking into the sunset">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-3.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-4.jpg" data-fancybox="gallery" data-caption="San Francisco City Hall">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-4.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-5.jpg" data-fancybox="gallery" data-caption="A tree in snow">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-5.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-6.jpg" data-fancybox="gallery" data-caption="Sihlpromenade, Zürich">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-6.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-7.jpg" data-fancybox="gallery" data-caption="An eclipse">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-7.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-8.jpg" data-fancybox="gallery" data-caption="Shadows on the wall">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-8.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-9.jpg" data-fancybox="gallery" data-caption="A swan">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-9.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-10.jpg" data-fancybox="gallery" data-caption="Leavenworth, WA">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-10.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-11.jpg" data-fancybox="gallery" data-caption="Star trails">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-11.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-12.jpg" data-fancybox="gallery" data-caption="A mosque">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-12.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-13.jpg" data-fancybox="gallery" data-caption="Dana, Jordan">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-13.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-14.jpg" data-fancybox="gallery" data-caption="Stars over Wadi Rum">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-14.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-15.jpg" data-fancybox="gallery" data-caption="Grossmunster">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-15.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-16.jpg" data-fancybox="gallery" data-caption="Whirling Dervishes">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-16.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-18.jpg" data-fancybox="gallery" data-caption="Dom Muncher">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-18.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-19.jpg" data-fancybox="gallery" data-caption="Snowflakes on a flower">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-19.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-20.jpg" data-fancybox="gallery" data-caption="Market Street">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-20.jpg" data-holder-rendered="true"> 
+                    </a>
+                    <a href="photos&#x2F;site_photos-21.jpg" data-fancybox="gallery" data-caption="Sunrise over San Francisco">
+                        <img class="photo-img" src="thumbs&#x2F;site_photos_t-21.jpg" data-holder-rendered="true"> 
+                    </a>
+                </div>
             </div>
         </main>
         
@@ -301,5 +440,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
     </body>
 </html>
