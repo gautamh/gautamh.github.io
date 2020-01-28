@@ -6414,3 +6414,5 @@ article {
   article p {
     font-size: 1.2rem;
     line-height: 1.8rem; }
+  article .sidenote-number:after, article .sidenote:before {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"; }
