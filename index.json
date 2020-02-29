@@ -175,6 +175,11 @@
             "img-src": "photos/site_photos-21.jpg",
             "img-src-thumb": "thumbs/site_photos_t-21.jpg",
             "caption": "Sunrise over San Francisco"
+        },
+        {
+            "img-src": "photos/site_photos-25.jpg",
+            "img-src-thumb": "thumbs/site_photos_t-25.jpg",
+            "caption": "Sunset over the Hudson"
         }
     ]
 }
