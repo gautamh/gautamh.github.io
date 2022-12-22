@@ -12,11 +12,14 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163480621-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+        import { dev } from '$app/environment';
+        if (!dev) {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
 
-        gtag('config', 'UA-163480621-1');
+            gtag('config', 'UA-163480621-1');
+        }
     </script>
     
     <meta charset="utf-8">
@@ -40,188 +43,10 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="../../favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <title>Gautam Hathi</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" />
-    <style>
-
-    .jumbotron {
-        height: 100%;
-        max-height: 250px;
-    }
-
-    .main-content {
-        margin-top: 30px;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .project-img {
-        height: 200px;
-        width: auto;
-        display: block;
-        margin: auto;
-    }
-
-    .thumbnail {
-        overflow: hidden;
-    }
-
-    .navbar {
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    .nav-link {
-        padding-top: 4px;
-        padding-bottom: 4px;
-    }
-
-    @media only screen and (max-width: 768px) and (orientation: portrait) {
-        .header-img {
-            width: 75%;
-            height: auto;
-            display: block;
-            margin: auto;
-        }
-
-        .header-left {
-            padding-right: 0px;
-            padding-left: 0px;
-            width: 100vw;
-        }
-
-        .row {
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-    }
-    
-    @media only screen and (min-width: 768px) {
-        .header {
-            max-height: 260px;
-        }
-
-        .header-left {
-            padding: 0px;
-        }
-
-        .header-right {
-            overflow: hidden;
-        }
-
-        .header-img {
-            height: 100%; 
-            width: auto;
-            max-height: 260px;
-        }
-
-        .caption-text {
-            height: 130px;
-        }
-    }
-
-    @media only screen and (max-width: 768px) and (orientation: landscape) {
-        
-        .header-left {
-            padding: 0px;
-            margin: 0px; 
-
-        }
-
-        .header-right {
-            padding: 0px 40px;
-            margin: 0px; 
-        }
-
-        .header-img {
-            width: 75%;
-            height: auto;
-            display: block;
-            margin: auto;
-        }
-
-        .main-content {
-            padding: 0px 40px;
-        }
-
-        .caption-text {
-            height: 175px;
-        }
-    }
-
-    #photo-imgs {
-        /* Prevent vertical gaps */
-        line-height: 0;
-        display: block;
-        z-index: 1;
-        
-        -webkit-column-count: 5;
-        -webkit-column-gap:   8px;
-        -moz-column-count:    5;
-        -moz-column-gap:      0px;
-        column-count:         5;
-        column-gap:           8px;
-        margin-bottom:        25px;
-    }
-
-    #photo-imgs img {
-        /* Just in case there are inline attributes */
-        width: 280px;
-        height: auto !important;
-        
-        margin: 8px 0px;
-        border-width: 20px, 20px, 0px, 0px;
-        
-        transition: all 0.3s;
-        overflow: visible;
-
-    }
-
-    #photo-imgs a {
-        /* Just in case there are inline attributes */
-        width: auto;
-        height: auto !important;
-        overflow: visible;
-    }
-
-    #photo-imgs img:hover {
-        transform: scale(1.03);
-        z-index: 99;
-    }
-
-    @media (max-width: 1750px) {
-        #photo-imgs {
-            -moz-column-count:    4;
-            -webkit-column-count: 4;
-            column-count:         4;
-        }
-    }
-
-    @media (max-width: 1450px) {
-        #photo-imgs {
-            -moz-column-count:    3;
-            -webkit-column-count: 3;
-            column-count:         3;
-        }
-    }
-    @media (max-width: 1050px) {
-        #photo-imgs {
-            -moz-column-count:    2;
-            -webkit-column-count: 2;
-            column-count:         2;
-        }
-    }
-    @media (max-width: 750px) {
-        #photo-imgs {
-            -moz-column-count:    1;
-            -webkit-column-count: 1;
-            column-count:         1;
-        }
-    }
-
+    <style lang="scss">
+        @import '../static/home.scss';
     </style>
 </svelte:head>
 <body>

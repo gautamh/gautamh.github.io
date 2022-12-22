@@ -187,48 +187,51 @@
         }
     ];
     </script>
-            <div class="row header">
-                <div class="header-left col-md-7 col-sm-12 offset-md-1">
-                    <div class="jumbotron">
-                        <h1>Gautam Hathi</h1>
-                        <hr/>
-                        <h4><i>find me on Twitter <a href="https://twitter.com/gautamhathi">@gautamhathi</a> and on <a href="https://github.com/gautamh">GitHub</a></i></h4>
-                        <h5><i>also maybe try <a rel="me" href="https://mastodon.social/@gautamh">Mastodon</a></i></h5>
-                    </div>
-                </div>
-                <div class="col-md-3 header-right"> 
-                    <img class="header-img" src="../../GKH_FB_4_3.jpg"/>
-                </div>
-                
+    <svelte:head>
+        <title>Gautam Hathi</title>
+    </svelte:head>
+    <div class="row header">
+        <div class="header-left col-md-7 col-sm-12 offset-md-1">
+            <div class="jumbotron">
+                <h1>Gautam Hathi</h1>
+                <hr/>
+                <h4><i>find me on Twitter <a href="https://twitter.com/gautamhathi">@gautamhathi</a> and on <a href="https://github.com/gautamh">GitHub</a></i></h4>
+                <h5><i>also maybe try <a rel="me" href="https://mastodon.social/@gautamh">Mastodon</a></i></h5>
             </div>
-            <div class="row main-content">
-                <div class="col-md-10 offset-md-1" id="projects">
-                    <h1>Projects</h1>
-                </div>
-                <div class="row col-md-10 offset-md-1"> 
-                    {#each projects as project}
-                        <Project title={project.title} project_desc={project.project_desc} img_src={project.img_src} link={project.link}/>
-                    {/each}
-                </div>
-                <div class="col-md-10 offset-md-1" id="writing">
-                    <h1>Writing</h1>
-                </div>
-                <div class="col-md-10 offset-md-1">
-                    <p>See also the <a href="../../thoughts/index.html">Thoughts</a> page.</p>
-                </div>
-                <div class="row col-md-10 offset-md-1">
-                    {#each writings as writing}
-                        <Writing title={writing.story_title} pullquote={writing.pullquote} source={writing.source} link={writing.link} />
-                    {/each}
-                </div>
-                <div class="col-md-10 offset-md-1" id="photos">
-                    <h1>Photography</h1>
-                    <p>In my free time I like to take photos. Here are some samples (click to enlarge and view in a gallery):</p>
-                </div>
-                <div class="row col-md-10 offset-md-1" id="photo-imgs"> 
-                    {#each photos as photo}
-                        <Photo img_src={photo.img_src} caption={photo.caption} img_src_thumb={photo.img_src_thumb} />
-                    {/each}
-                </div>
-            </div>
+        </div>
+        <div class="col-md-3 header-right"> 
+            <img class="header-img" src="../../GKH_FB_4_3.jpg"/>
+        </div>
+        
+    </div>
+    <div class="row main-content">
+        <div class="col-md-10 offset-md-1" id="projects">
+            <h1>Projects</h1>
+        </div>
+        <div class="row col-md-10 offset-md-1"> 
+            {#each projects as project}
+                <Project title={project.title} project_desc={project.project_desc} img_src={project.img_src} link={project.link}/>
+            {/each}
+        </div>
+        <div class="col-md-10 offset-md-1" id="writing">
+            <h1>Writing</h1>
+        </div>
+        <div class="col-md-10 offset-md-1">
+            <p>See also the <a href="../../thoughts/index.html">Thoughts</a> page.</p>
+        </div>
+        <div class="row col-md-10 offset-md-1">
+            {#each writings as writing}
+                <Writing title={writing.story_title} pullquote={writing.pullquote} source={writing.source} link={writing.link} />
+            {/each}
+        </div>
+        <div class="col-md-10 offset-md-1" id="photos">
+            <h1>Photography</h1>
+            <p>In my free time I like to take photos. Here are some samples (click to enlarge and view in a gallery):</p>
+        </div>
+        <div class="row col-md-10 offset-md-1" id="photo-imgs"> 
+            {#each photos as photo}
+                <Photo img_src={photo.img_src} caption={photo.caption} img_src_thumb={photo.img_src_thumb} />
+            {/each}
+        </div>
+    </div>
     
