@@ -217,7 +217,7 @@
             <h1>Writing</h1>
         </div>
         <div class="col-md-10 offset-md-1">
-            <p>See also the <a href="../../thoughts/index.html">Thoughts</a> page.</p>
+            <p>See also the <a href="../../thoughts">Thoughts</a> page.</p>
         </div>
         <div class="row col-md-10 offset-md-1">
             {#each writings as writing}
