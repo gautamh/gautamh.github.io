@@ -14,14 +14,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163480621-1"></script>
     <script>
-        import { dev } from '$app/environment';
-        if (!dev) {
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-            gtag('config', 'UA-163480621-1');
-        }
+        gtag('config', 'UA-163480621-1');
     </script>
     
     <meta charset="utf-8">
