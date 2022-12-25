@@ -3,47 +3,48 @@
         import Project from './Project.svelte';
         import Writing from './Writing.svelte';
         import Photo from './Photo.svelte';
+        // import alala_path from '/alala_path.PNG';
         let projects = [
         {
             "title": "ML for data generation",
             "project_desc": "A paper based on a project I worked on at Google to generate structured data by training Variational Auto Encoders.",
-            "img_src": "../../alala_path.PNG",
+            "img_src": "/img/alala_path.PNG",
             "link": "https://arxiv.org/abs/1904.10446"
         },
         {
             "title": "Who The Hill", 
             "project_desc": "A facial recognition app that allowed reporters to snap a picture of a member of Congress, text it to our service, and get a name back for that member. Co-created as an intern on the New York Times' Interactive News team.",
-            "img_src": "../../shazongress.png",
+            "img_src": "/img/shazongress.png",
             "link": "https://open.nytimes.com/how-the-new-york-times-uses-software-to-recognize-members-of-congress-29b46dd426c7"
         },
         {
             "title": "FactPopUp",
             "project_desc": "A Chrome extension used by PolitiFact to deliver live fact checking during the 2016 Presidential Debates. Created for the Duke Reporters' Lab.",
-            "img_src": "../../factpopup.jpg",
+            "img_src": "/img/factpopup.jpg",
             "link": "https://www.poynter.org/news/tired-second-screen-tool-will-live-fact-check-debate-you"
         },
         {
             "title": "StoryTracer",
             "project_desc": "A Chrome extension to identify the source information that a web page is based upon. Created for the Duke Reporters' Lab.",
-            "img_src": "../../storytracer.png",
+            "img_src": "/img/storytracer.png",
             "link": "https://reporterslab.org/storytracer-google-chrome-extension-original-source/"
         },
         {
             "title": "DSG Voting Networks",
             "project_desc": "A news article I wrote analyzing voting networks and phantom political parties in Duke's student government.",
-            "img_src": "../../dsg_voting_networks.png",
+            "img_src": "/img/dsg_voting_networks.png",
             "link": "https://www.dukechronicle.com/article/2016/05/dsg-records-show-networks-of-voting-patterns"
         },
         {
             "title": "Talking Points",
             "project_desc": "A data analysis and visualization project that looked at speeches made by members of Congress. This was a class project that used to live on a website but still has interesting components available to look at.",
-            "img_src": "../../talking_points.PNG",
+            "img_src": "/img/talking_points.PNG",
             "link": "https://app.powerbi.com/view?r=eyJrIjoiZjJjOWExZjUtYzAwMS00NmJhLWJhNWEtZjZmYjUxYWVjNzY2IiwidCI6IjYxOWUzOWZmLWQ2MTItNDFmZi1iYjEzLTI3Mjk0Nzg2MjQ4MSIsImMiOjN9"
         },
         {
             "title": "Window Seat",
             "project_desc": "A quick analysis of which side of the plane has the better view.",
-            "img_src": "../../window_seat.PNG",
+            "img_src": "/img/window_seat.PNG",
             "link": "https://gautamh.github.io/window-seat/"
         }
     ];
@@ -81,108 +82,108 @@
     ];
     let photos = [
         {
-            "img_src": "../../photos/site_photos-1.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-1.jpg",
+            "img_src": "/photos/site_photos-1.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-1.jpg",
             "caption": "Sunset over Goat Rocks"
         },
         {
-            "img_src": "../../photos/site_photos-2.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-2.jpg",
+            "img_src": "/photos/site_photos-2.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-2.jpg",
             "caption": "Into the lens"
         },
         {
-            "img_src": "../../photos/site_photos-3.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-3.jpg",
+            "img_src": "/photos/site_photos-3.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-3.jpg",
             "caption": "Looking into the sunset"
         },
         {
-            "img_src": "../../photos/site_photos-4.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-4.jpg",
+            "img_src": "/photos/site_photos-4.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-4.jpg",
             "caption": "San Francisco City Hall"
         },
         {
-            "img_src": "../../photos/site_photos-5.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-5.jpg",
+            "img_src": "/photos/site_photos-5.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-5.jpg",
             "caption": "A tree in snow"
         },
         {
-            "img_src": "../../photos/site_photos-6.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-6.jpg",
+            "img_src": "/photos/site_photos-6.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-6.jpg",
             "caption": "Sihlpromenade, Zürich"
         },
         {
-            "img_src": "../../photos/site_photos-35.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-35.jpg",
+            "img_src": "/photos/site_photos-35.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-35.jpg",
             "caption": "Rearview mirror"
         },
         {
-            "img_src": "../../photos/site_photos-8.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-8.jpg",
+            "img_src": "/photos/site_photos-8.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-8.jpg",
             "caption": "Shadows on the wall"
         },
         {
-            "img_src": "../../photos/site_photos-9.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-9.jpg",
+            "img_src": "/photos/site_photos-9.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-9.jpg",
             "caption": "A swan"
         },
         {
-            "img_src": "../../photos/site_photos-10.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-10.jpg",
+            "img_src": "/photos/site_photos-10.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-10.jpg",
             "caption": "Leavenworth, WA"
         },
         {
-            "img_src": "../../photos/site_photos-11.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-11.jpg",
+            "img_src": "/photos/site_photos-11.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-11.jpg",
             "caption": "Star trails"
         },
         {
-            "img_src": "../../photos/site_photos-12.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-12.jpg",
+            "img_src": "/photos/site_photos-12.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-12.jpg",
             "caption": "A mosque"
         },
         {
-            "img_src": "../../photos/site_photos-13.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-13.jpg",
+            "img_src": "/photos/site_photos-13.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-13.jpg",
             "caption": "Dana, Jordan"
         },
         {
-            "img_src": "../../photos/site_photos-14.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-14.jpg",
+            "img_src": "/photos/site_photos-14.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-14.jpg",
             "caption": "Stars over Wadi Rum"
         },
         {
-            "img_src": "../../photos/site_photos-15.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-15.jpg",
+            "img_src": "/photos/site_photos-15.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-15.jpg",
             "caption": "Grossmünster"
         },
         {
-            "img_src": "../../photos/site_photos-16.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-16.jpg",
+            "img_src": "/photos/site_photos-16.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-16.jpg",
             "caption": "Whirling Dervishes"
         },
         {
-            "img_src": "../../photos/site_photos-34.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-34.jpg",
+            "img_src": "/photos/site_photos-34.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-34.jpg",
             "caption": "Snowfall"
         },
         {
-            "img_src": "../../photos/site_photos-36.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-36.jpg",
+            "img_src": "/photos/site_photos-36.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-36.jpg",
             "caption": "Fall scatterplots"
         },
         {
-            "img_src": "../../photos/site_photos-20.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-20.jpg",
+            "img_src": "/photos/site_photos-20.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-20.jpg",
             "caption": "Market Street"
         },
         {
-            "img_src": "../../photos/site_photos-21.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-21.jpg",
+            "img_src": "/photos/site_photos-21.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-21.jpg",
             "caption": "Sunrise over San Francisco"
         },
         {
-            "img_src": "../../photos/site_photos-25.jpg",
-            "img_src_thumb": "../../thumbs/site_photos_t-25.jpg",
+            "img_src": "/photos/site_photos-25.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-25.jpg",
             "caption": "Sunset over the Hudson"
         }
     ];
@@ -200,7 +201,7 @@
             </div>
         </div>
         <div class="col-md-3 header-right"> 
-            <img class="header-img" src="../../GKH_FB_4_3.jpg"/>
+            <img class="header-img" src="/img/GKH_FB_4_3.jpg"/>
         </div>
         
     </div>
