@@ -2,7 +2,6 @@
 <script>
     import { page } from "$app/stores"
     import { base } from '$app/paths';
-    import apple_icon_57x57 from '/favicon/apple-icon-57x57.png';
     /**
 	 * @type {string}
 	 */
