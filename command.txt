@@ -1,3 +1,0 @@
-sudo npm install -g mustache
-alias mustache="/usr/local/bin/mustache"
-mustache index.json index_template.mustache index.html
