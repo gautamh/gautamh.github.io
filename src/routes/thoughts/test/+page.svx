@@ -1,0 +1,27 @@
+<svelte:head>
+    <title>Test | Gautam Hathi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" />
+    <style lang="scss">
+        @import "../../../lib/thoughts/thoughts.scss";
+    </style>
+</svelte:head>
+<script>
+	import NewThought from './NewThought.svelte';
+
+    /**
+	 * @type {{ content: any; }}
+	 */
+     export let data;
+
+</script>
+
+<article>
+
+    <section>
+    <NewThought thought='Once upon a time' /> in a galaxy far, far away...
+    
+    {@html data.code}
+
+    </section>
+
+</article>
