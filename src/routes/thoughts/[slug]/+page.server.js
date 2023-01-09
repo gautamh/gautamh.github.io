@@ -11,6 +11,7 @@ import { visit } from 'unist-util-visit';
 
 const POST_MAP = {
   "example": "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI",
+  "test": "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI"
 };
 
 /** @type {import('unified').Plugin<[], import('mdast').Root>} */
@@ -129,10 +130,13 @@ async function callWithRetries(retryFunction, numRetries) {
   }
 }
 
-export async function load() {
+export async function load({ params }) {
+    if (!(params.slug in POST_MAP)) {
+      return {};
+    }
+
     console.log("HELLO!");
     console.log("getting auth client");
-    //const authClient = await getAuthClient(2);
     const authClient = await callWithRetries(async () => {
       return await google.auth.getClient({
         keyFilename: GOOGLE_APPLICATION_CREDENTIALS,
@@ -143,13 +147,13 @@ export async function load() {
     console.log("got auth client");
 
     // pass in the valid authentication and ID of the document you want to process
-    console.log("retrieving doc");
+    console.log("retrieving doc for: %s", params.slug);
     const results = await callWithRetries(async () => {
-      return await docToArchieML({ documentId: '1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI', auth: authClient });
+      return await docToArchieML({ documentId: POST_MAP[params.slug], auth: authClient });
     }, 2);
     console.log("retrieved doc");
-    // const results = await docToArchieML({ documentId: '1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI', auth: authClient });
 
+    console.log(results);
     const compiledHtml = await compileMdsvex(results.content.map(item => item.value).join('\n\n'));
     compiledHtml.code = compiledHtml.code
       .replace(/>{@html `<code class="language-/g, '><code class="language-')

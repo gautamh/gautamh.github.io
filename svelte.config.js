@@ -18,7 +18,13 @@ const config = {
 			fallback: null,
 			precompress: false,
 			strict: true
-		})
+		}),
+		prerender: {
+			entries: [
+				"*",
+				"/thoughts/example",
+			]
+		}
 	}
 };
 
