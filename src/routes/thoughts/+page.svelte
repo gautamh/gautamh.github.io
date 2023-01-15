@@ -5,6 +5,13 @@
         @import "../../lib/thoughts/thoughts.scss";
     </style>
 </svelte:head>
+<script>
+    /**
+	 * @type {{ content: any; }}
+	 */
+     export let data;
+
+</script>
 <body>
     <article>
         <h1>
@@ -14,6 +21,11 @@
             <p>Most of my thoughts aren't particularly interesting to anyone but me. When they might be interesting, in most cases enough other people have already written up something similar enough that you don't need to read my version. In a few cases, though, I think my thoughts might be interesting to other people and I haven't found too many other good pieces on a similar topic:</p>
         </section>
         <ul>
+            {#each data.snippets as snippet}
+            <li>
+                <a href={"./thoughts/" + snippet.slug}>{@html snippet.title + " - " + snippet.date}</a>
+            </li>
+            {/each}
             <li>
                 <a href="./thoughts/caste">Issues with <em>Caste</em></a> - December 2020
             </li>
