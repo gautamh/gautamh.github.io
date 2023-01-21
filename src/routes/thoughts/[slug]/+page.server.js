@@ -23,7 +23,7 @@ export async function load({ params }) {
     // pass in the valid authentication and ID of the document you want to process
     console.log("retrieving doc for: %s", params.slug);
     const results = await callWithRetries(async () => {
-      return await docToArchieML({ documentId: POST_MAP[params.slug], auth: authClient });
+      return await docToArchieML({ documentId: POST_MAP[params.slug].docId, auth: authClient });
     }, 2);
     console.log("retrieved doc");
 

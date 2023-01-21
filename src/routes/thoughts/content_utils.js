@@ -10,9 +10,18 @@ import remarkParse from 'remark-parse';
 import { visit } from 'unist-util-visit';
 
 export const POST_MAP = {
-    "example": "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI",
-    "test": "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI",
-    "site-rework": "1y9aQZRNvJVzKGLuCKFFb3c_HyL6Tmdj2pT38dPXiipA",
+    "site-rework": {
+      docId: "1y9aQZRNvJVzKGLuCKFFb3c_HyL6Tmdj2pT38dPXiipA",
+      published: true
+    },
+    "example": {
+      docId: "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI",
+      published: true
+    },
+    "test": { 
+      docId: "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI",
+      published: false
+    },
   };
   
   /** @type {import('unified').Plugin<[], import('mdast').Root>} */
@@ -125,6 +134,7 @@ export const POST_MAP = {
       console.log("calling retryFunction");
       return await retryFunction();
     } catch (error) {
+      console.log(error());
       console.log(JSON.stringify(error));
       if (numRetries > 0) {
         console.log("RETRYING");

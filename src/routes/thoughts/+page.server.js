@@ -9,15 +9,17 @@ export async function load() {
     console.log("got auth client");
 
     let snippets = 
-        await Promise.all(slugsToDocIds.map(async ([slug, docId]) => 
-            createSummarySnippet(slug, docId, authClient)));
+        await Promise.all(slugsToDocIds
+            .filter(([slug, docInfo]) => docInfo.published)
+            .map(async ([slug, docInfo]) => 
+                createSummarySnippet(slug, docInfo.docId, authClient)));
     
     return {"snippets": snippets};
 }
 
 /**
  * @param {string} urlSlug
- * @param {string} docId
+ * @param {any} docId
  * @param {any} authClient
  */
 async function createSummarySnippet(urlSlug, docId, authClient) {
