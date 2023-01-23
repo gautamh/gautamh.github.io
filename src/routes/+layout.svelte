@@ -59,19 +59,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item {($page.url.pathname === '/')? 'active' : 'inactive'}">
-                            <a class="nav-link" href="./#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./#projects">Projects</a>
+                            <a class="nav-link" href="/#projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./#writing">Writing</a>
+                            <a class="nav-link" href="/#writing">Writing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./#photos">Photography</a>
+                            <a class="nav-link" href="/#photos">Photography</a>
                         </li>
                         <li class="nav-item {($page.url.pathname === '/thoughts')? 'active' : 'inactive'}">
-                            <a class="nav-link" href="../thoughts">Thoughts</a>
+                            <a class="nav-link" href="/thoughts">Thoughts</a>
                         </li>
                     </ul>
                 </div>
