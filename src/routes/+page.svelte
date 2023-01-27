@@ -82,6 +82,16 @@
     ];
     let photos = [
         {
+            "img_src": "/photos/site_photos-38.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-38.jpg",
+            "caption": "Peeking into the light"
+        },
+        {
+            "img_src": "/photos/site_photos-42.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-42.jpg",
+            "caption": "Fall on the Hudson"
+        },
+        {
             "img_src": "/photos/site_photos-1.jpg",
             "img_src_thumb": "/thumbs/site_photos_t-1.jpg",
             "caption": "Sunset over Goat Rocks"
@@ -127,19 +137,14 @@
             "caption": "A swan"
         },
         {
-            "img_src": "/photos/site_photos-10.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-10.jpg",
-            "caption": "Leavenworth, WA"
+            "img_src": "/photos/site_photos-43.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-43.jpg",
+            "caption": "Grey mist"
         },
         {
-            "img_src": "/photos/site_photos-11.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-11.jpg",
-            "caption": "Star trails"
-        },
-        {
-            "img_src": "/photos/site_photos-12.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-12.jpg",
-            "caption": "A mosque"
+            "img_src": "/photos/site_photos-39.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-39.jpg",
+            "caption": "Manhattanhenge"
         },
         {
             "img_src": "/photos/site_photos-13.jpg",
@@ -150,11 +155,6 @@
             "img_src": "/photos/site_photos-14.jpg",
             "img_src_thumb": "/thumbs/site_photos_t-14.jpg",
             "caption": "Stars over Wadi Rum"
-        },
-        {
-            "img_src": "/photos/site_photos-15.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-15.jpg",
-            "caption": "Grossmünster"
         },
         {
             "img_src": "/photos/site_photos-16.jpg",
