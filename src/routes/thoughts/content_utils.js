@@ -134,7 +134,9 @@ export const POST_MAP = {
       console.log("calling retryFunction");
       return await retryFunction();
     } catch (error) {
-      console.log(error());
+      if (typeof error === 'function') {
+        console.log(error());
+      }
       console.log(JSON.stringify(error));
       if (numRetries > 0) {
         console.log("RETRYING");
