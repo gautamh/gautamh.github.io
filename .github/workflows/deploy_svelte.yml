@@ -29,12 +29,12 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-           - name: create-json
-      id: create-json
-      uses: jsdaniell/create-json@v1.2.2
-      with:
-        name: "google_creds.json"
-        json: ${{ secrets.GOOGLE_CREDS }}
+      - name: create-json
+        id: create-json
+        uses: jsdaniell/create-json@v1.2.2
+        with:
+          name: "google_creds.json"
+          json: ${{ secrets.GOOGLE_CREDS }}
       - run: npm ci
       - run: npm run build
       - name: Upload artifact
