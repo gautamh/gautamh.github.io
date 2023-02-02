@@ -6,7 +6,6 @@ export async function load() {
 
     console.log("getting auth client");
     const authClient = await getAuthClient();
-    console.log(JSON.stringify(authClient));
     console.log("got auth client");
 
     let snippets = 
