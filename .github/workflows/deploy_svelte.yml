@@ -35,12 +35,6 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
-      # Enable tmate debugging of manually-triggered workflows if the input option was provided
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
-        with:
-          limit-access-to-actor: true
       - name: create-json
         id: create-json
         uses: jsdaniell/create-json@v1.2.2
@@ -56,6 +50,12 @@ jobs:
           cat .env
       - run: npm ci
       - run: npm run build
+       # Enable tmate debugging of manually-triggered workflows if the input option was provided
+      - name: Setup tmate session
+        uses: mxschmitt/action-tmate@v3
+        if: ${{ failure() && github.event_name == 'workflow_dispatch' && inputs.debug_enabled }}
+        with:
+          limit-access-to-actor: true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
