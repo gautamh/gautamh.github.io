@@ -35,6 +35,13 @@ jobs:
         with:
           name: "google_creds.json"
           json: ${{ secrets.GOOGLE_CREDS }}
+      - name: 'Create env file'
+        run: |
+          touch .env
+          echo GOOGLE_APPLICATION_CREDENTIALS="google_creds.json" >> .env
+          echo GCP_PROJECT=${{ secrets.GCP_PROJECT }} >> .env
+          echo GCLOUD_PROJECT=${{ secrets.GCP_PROJECT }} >> .env
+          cat .env
       - run: npm ci
       - run: npm run build
       - name: Upload artifact
