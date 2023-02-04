@@ -156,7 +156,7 @@
 <body>
     <article>
         <h1>
-            Thoughts
+            Reading
         </h1>
         <section>
             <p>Here are (most of) the things I've been reading, going back some indeterminate amount of time, along with my notes for (most of) the non-fiction stuff:</p>
