@@ -73,6 +73,9 @@
                         <li class="nav-item {($page.url.pathname === '/thoughts')? 'active' : 'inactive'}">
                             <a class="nav-link" href="/thoughts">Thoughts</a>
                         </li>
+                        <li class="nav-item {($page.url.pathname === '/reading')? 'active' : 'inactive'}">
+                            <a class="nav-link" href="/reading">Reading</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
