@@ -15,9 +15,12 @@
 
 <article>
 
+    <h1 id="tufte-css">{@html data.title}</h1>
+    <p class="subtitle">{@html data.subtitle}</p>
+
     <section>
             
-    {@html data.code}
+    {@html data.body.code}
 
     </section>
 

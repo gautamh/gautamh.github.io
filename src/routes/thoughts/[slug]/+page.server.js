@@ -31,6 +31,11 @@ export async function load({ params }) {
     const compiledHtml = await compileMdsvex(results.content.map(item => item.value).join('\n\n'));
     console.log(compiledHtml);
 
+    let contentRegex = /<p>(.*)<\/p>/;
     // Return the results
-    return compiledHtml;
+    return {
+      body: compiledHtml,
+      title: (await compileMdsvex(results.title)).code.match(contentRegex)[1],
+      subtitle: (await compileMdsvex(results.subtitle)).code.match(contentRegex)[1],
+    };
 }
