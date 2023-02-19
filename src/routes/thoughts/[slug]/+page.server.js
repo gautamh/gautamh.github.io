@@ -32,7 +32,5 @@ export async function load({ params }) {
     console.log(compiledHtml);
 
     // Return the results
-    /*if (Object.keys(results).length) return results;
-    throw error(404, 'not found');*/
     return compiledHtml;
 }
