@@ -36,6 +36,7 @@ export async function load({ params }) {
     return {
       body: compiledHtml,
       title: (await compileMdsvex(results.title)).code.match(contentRegex)[1],
+      plainTitle: results.plainTitle,
       subtitle: (await compileMdsvex(results.subtitle)).code.match(contentRegex)[1],
     };
 }

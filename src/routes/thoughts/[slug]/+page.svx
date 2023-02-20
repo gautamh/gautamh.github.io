@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Test | Gautam Hathi</title>
+    <title>{data.plainTitle} | Gautam Hathi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous" />
     <style lang="scss">
         @import "../../../lib/thoughts/thoughts.scss";
