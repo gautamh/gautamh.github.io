@@ -23,7 +23,7 @@
         <ul>
             {#each data.snippets as snippet}
             <li>
-                <a href={"./thoughts/" + snippet.slug}>{@html snippet.title + " - " + snippet.date}</a>
+                <a href={"./thoughts/" + snippet.slug}>{@html snippet.title}</a>{@html " - " + snippet.date}
             </li>
             {/each}
             <li>
