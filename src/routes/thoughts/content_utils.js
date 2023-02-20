@@ -12,7 +12,7 @@ import { visit } from 'unist-util-visit';
 export const POST_MAP = {
     "site-rework": {
       docId: "1y9aQZRNvJVzKGLuCKFFb3c_HyL6Tmdj2pT38dPXiipA",
-      published: false
+      published: true
     },
     "example": {
       docId: "1n8yRyoE-64nBhOWUzBOhQ5nPRLnim7f0TI6Yzty-VCI",
