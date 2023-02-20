@@ -44,3 +44,8 @@ article {
         }
     }
 }
+
+article pre > code {
+    width: 75%;
+    line-height: 0.9;
+}
