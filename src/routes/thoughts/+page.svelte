@@ -19,6 +19,7 @@
         </h1>
         <section>
             <p>Most of my thoughts aren't particularly interesting to anyone but me. When they might be interesting, in most cases enough other people have already written up something similar enough that you don't need to read my version. In a few cases, though, I think my thoughts might be interesting to other people and I haven't found too many other good pieces on a similar topic:</p>
+            <h6>Also see my <a href="../reading">Reading page</a>, which includes notes on some of the things I've read.</h6>
         </section>
         <ul>
             {#each data.snippets as snippet}
