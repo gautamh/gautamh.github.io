@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "China's Gilded Age",
+            author: "Yuen Yuen Ang",
+            goodreads_link: "https://www.goodreads.com/en/book/show/49105000",
+            notes_link: "https://drive.google.com/file/d/1D7gbdgkq7ivvnYz8kO3DvFBRE_u1GIAm/view?usp=sharing",
+        },
+        {
             title: "Consider Phlebas",
             goodreads_link: "https://www.goodreads.com/book/show/8935689-consider-phlebas",
             author: "Ian M. Banks",
