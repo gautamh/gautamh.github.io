@@ -9,6 +9,11 @@
 <script>
     let books = [
         {
+            title: "The Burning God",
+            goodreads_link: "https://www.goodreads.com/en/book/show/45857086",
+            author: "R.F. Kuang",
+        },
+        {
             title: "China's Gilded Age",
             author: "Yuen Yuen Ang",
             goodreads_link: "https://www.goodreads.com/en/book/show/49105000",
