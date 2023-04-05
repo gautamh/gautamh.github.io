@@ -122,6 +122,12 @@
             notes_link: "https://drive.google.com/file/d/1LqOzKzpKj04LK7cea1fLefgQDbDx-TaV/view?usp=share_link"
         },
         {
+            title: "The Origins of Totalitarianism",
+            goodreads_link: "https://www.goodreads.com/en/book/show/396931",
+            author: "Hannah Arendt",
+            notes_link: "https://drive.google.com/file/d/1JxorX4BphnbRWZOeBOeVFds3yigOYLkJ/view?usp=sharing"
+        },
+        {
             title: "Bring the War Home",
             goodreads_link: "https://www.goodreads.com/en/book/show/36228413",
             author: "Kathleen Belew",
