@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "Watergate",
+            goodreads_link: "https://www.goodreads.com/en/book/show/56898146",
+            author: "Garrett M. Graff",
+            notes_link: "https://drive.google.com/file/d/1MkkfJlBxIufp3T5m4SXkvLHsAqLjJf2n/view?usp=sharing"
+        },
+        {
             title: "The Burning God",
             goodreads_link: "https://www.goodreads.com/en/book/show/45857086",
             author: "R.F. Kuang",
