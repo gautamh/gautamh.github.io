@@ -203,7 +203,7 @@
         <ul>
             {#each books as book}
             <li>
-                <em><a href={book.goodreads_link}>{book.title}</a></em>, {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link}>(Notes)</a>{/if}
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em>, {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
             </li>
             {/each}
         </ul>
