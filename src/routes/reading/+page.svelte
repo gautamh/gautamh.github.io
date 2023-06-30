@@ -9,6 +9,17 @@
 <script>
     let books = [
         {
+            title: "De Gaulle",
+            goodreads_link: "https://www.goodreads.com/book/show/39204022-de-gaulle",
+            author: "Julian Jackson",
+            notes_link: "https://drive.google.com/file/d/1V3EcMuqG2hhPgTGRV5_xJFSyNbvbrLZX/view?usp=sharing"
+        },
+        {
+            title: "Kaikeyi",
+            goodreads_link: "https://www.goodreads.com/book/show/57127277-kaikeyi",
+            author: "Vaishnavi Patel",
+        },
+        {
             title: "Blowout",
             goodreads_link: "https://www.goodreads.com/book/show/60596882-blowout",
             author: "Rachel Maddow",
