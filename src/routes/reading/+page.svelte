@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "G-Man",
+            goodreads_link: "https://www.goodreads.com/en/book/show/60417618",
+            author: "Beverly Gage",
+            notes_link: "https://drive.google.com/file/d/12reWshSXDSVm-L1Ht7xbZxnpzj9t7E0X/view?usp=sharing"
+        },
+        {
             title: "The Doctor and the Saint",
             goodreads_link: "https://www.goodreads.com/book/show/31945021-the-doctor-and-the-saint",
             author: "Arundhati Roy",
