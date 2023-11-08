@@ -9,6 +9,16 @@
 <script>
     let books = [
         {
+            title: "Troy",
+            goodreads_link: "https://www.goodreads.com/book/show/53443339-troy",
+            author: "Stephen Fry",
+        },
+        {
+            title: "Interview With History",
+            goodreads_link: "https://www.goodreads.com/en/book/show/70688",
+            author: "Oriana Fallaci",
+        },
+        {
             title: "G-Man",
             goodreads_link: "https://www.goodreads.com/en/book/show/60417618",
             author: "Beverly Gage",
