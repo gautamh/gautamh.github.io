@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "The Singapore Story",
+            goodreads_link: "https://www.goodreads.com/en/book/show/326981",
+            author: "Lee Kuan Yew",
+            notes_link: "https://drive.google.com/file/d/1RazwhzzsFTzVSeacoCgo7ghroIDDJsnc/view?usp=sharing"
+        },
+        {
             title: "Troy",
             goodreads_link: "https://www.goodreads.com/book/show/53443339-troy",
             author: "Stephen Fry",
