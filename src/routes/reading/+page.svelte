@@ -9,6 +9,17 @@
 <script>
     let books = [
         {
+            title: "How Not to Be a Politician",
+            goodreads_link: "https://www.goodreads.com/book/show/112974863-how-not-to-be-a-politician",
+            author: "Rory Stewart",
+            notes_link: "https://drive.google.com/file/d/1O9ZA38UEw-6u9AaNr-UrHImuT4Sivd0P/view?usp=sharing"
+        },
+        {
+            title: "The Iliad",
+            goodreads_link: "https://www.goodreads.com/book/show/77265004-the-iliad",
+            author: "Homer, trans. Emily Wilson",
+        },
+        {
             title: "The Singapore Story",
             goodreads_link: "https://www.goodreads.com/en/book/show/326981",
             author: "Lee Kuan Yew",
@@ -39,7 +50,7 @@
         {
             title: "Memoirs of Hadrian",
             goodreads_link: "https://www.goodreads.com/book/show/12172.Memoirs_of_Hadrian",
-            author: "Marguerite Yourcenar",
+            author: "Marguerite Yourcenar, trans. Grace Frick",
         },
         {
             title: "De Gaulle",
@@ -247,7 +258,7 @@
         <ul>
             {#each books as book}
             <li>
-                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em>, {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
             </li>
             {/each}
         </ul>
