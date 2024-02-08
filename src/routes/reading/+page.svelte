@@ -9,10 +9,9 @@
 <script>
     let books = [
         {
-            title: "The Restless Republic",
-            goodreads_link: "https://www.goodreads.com/en/book/show/57293228",
-            author: "Anna Keay",
-            notes_link: "https://drive.google.com/file/d/1tP-5sumDM27vX_uMlLy4-q0kB1Id8vSt/view?usp=sharing"
+            title: "Babel",
+            goodreads_link: "https://www.goodreads.com/en/book/show/57945316",
+            author: "R. F. Kuang",
         },
         {
             title: "How Not to Be a Politician",
