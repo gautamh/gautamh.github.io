@@ -9,6 +9,11 @@
 <script>
     let books = [
         {
+            title: "A City on Mars",
+            goodreads_link: "https://www.goodreads.com/en/book/show/125084292",
+            author: "Kelly and Zach Weinersmith",
+        },
+        {
             title: "Babel",
             goodreads_link: "https://www.goodreads.com/en/book/show/57945316",
             author: "R. F. Kuang",
