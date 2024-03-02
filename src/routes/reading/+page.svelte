@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "The Great Post Office Scandal",
+            goodreads_link: "https://www.goodreads.com/book/show/59581993-the-great-post-office-scandal",
+            author: "Nick Wallis",
+            notes_link: "https://drive.google.com/file/d/12Sd5L6Mgv6I7yw_Mz-n13njCQWRf1zZ4/view?usp=sharing"
+        },
+        {
             title: "A City on Mars",
             goodreads_link: "https://www.goodreads.com/en/book/show/125084292",
             author: "Kelly and Zach Weinersmith",
