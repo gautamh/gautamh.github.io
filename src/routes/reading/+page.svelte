@@ -9,6 +9,17 @@
 <script>
     let books = [
         {
+            title: "The New Jim Crow",
+            goodreads_link: "https://www.goodreads.com/book/show/6792458-the-new-jim-crow",
+            author: "Michelle Alexander",
+            notes_link: "https://drive.google.com/file/d/1i3_jmNREBBCleW7IrqZ1vMQ-pQeWhcxn/view?usp=sharing"
+        },
+        {
+            title: "The Steerswoman",
+            goodreads_link: "https://www.goodreads.com/en/book/show/793297",
+            author: "Rosemary Kirstein",
+        },
+        {
             title: "All Systems Red",
             goodreads_link: "https://www.goodreads.com/book/show/32758901-all-systems-red",
             author: "Martha Wells",
