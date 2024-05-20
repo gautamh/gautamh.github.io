@@ -9,6 +9,17 @@
 <script>
     let books = [
         {
+            title: "An Immense World",
+            goodreads_link: "https://www.goodreads.com/en/book/show/59575939",
+            author: "Ed Yong",
+            notes_link: "https://drive.google.com/file/d/1b9Y5v0bRX0DGB4Fsr6BDK57bbRN57ZZb/view?usp=sharing"
+        },
+        {
+            title: "Shogun",
+            goodreads_link: "https://www.goodreads.com/book/show/52382796-sh-gun",
+            author: "James Clavell",
+        },
+        {
             title: "The New Jim Crow",
             goodreads_link: "https://www.goodreads.com/book/show/6792458-the-new-jim-crow",
             author: "Michelle Alexander",
