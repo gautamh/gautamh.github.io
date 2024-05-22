@@ -122,9 +122,9 @@
             "caption": "Sihlpromenade, Zürich"
         },
         {
-            "img_src": "/photos/site_photos-35.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-35.jpg",
-            "caption": "Rearview mirror"
+            "img_src": "/photos/site_photos-51.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-51.jpg",
+            "caption": "Corona"
         },
         {
             "img_src": "/photos/site_photos-8.jpg",
@@ -142,14 +142,14 @@
             "caption": "Grey mist"
         },
         {
-            "img_src": "/photos/site_photos-39.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-39.jpg",
-            "caption": "Manhattanhenge"
+            "img_src": "/photos/site_photos-52.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-52.jpg",
+            "caption": "Eclipse at Lac Fraser"
         },
         {
-            "img_src": "/photos/site_photos-13.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-13.jpg",
-            "caption": "Dana, Jordan"
+            "img_src": "/photos/site_photos-49.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-49.jpg",
+            "caption": "Tree Trio"
         },
         {
             "img_src": "/photos/site_photos-14.jpg",
@@ -169,7 +169,7 @@
         {
             "img_src": "/photos/site_photos-47.jpg",
             "img_src_thumb": "/thumbs/site_photos_t-47.jpg",
-            "caption": "Fall spectra"
+            "caption": "Fall Spectra"
         },
         {
             "img_src": "/photos/site_photos-20.jpg",
@@ -182,9 +182,9 @@
             "caption": "Cherry Blossoms"
         },
         {
-            "img_src": "/photos/site_photos-25.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-25.jpg",
-            "caption": "Sunset over the Hudson"
+            "img_src": "/photos/site_photos-45.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-45.jpg",
+            "caption": "Manhattanhenge at Madame Tussauds"
         }
     ];
     </script>
