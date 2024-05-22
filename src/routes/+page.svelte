@@ -82,14 +82,14 @@
     ];
     let photos = [
         {
-            "img_src": "/photos/site_photos-38.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-38.jpg",
-            "caption": "Peeking into the light"
+            "img_src": "/photos/site_photos-44.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-44.jpg",
+            "caption": "Leaning into Manhattanhenge"
         },
         {
-            "img_src": "/photos/site_photos-42.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-42.jpg",
-            "caption": "Fall on the Hudson"
+            "img_src": "/photos/site_photos-48.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-48.jpg",
+            "caption": "The Little Red Lighthouse"
         },
         {
             "img_src": "/photos/site_photos-1.jpg",
@@ -167,9 +167,9 @@
             "caption": "Snowfall"
         },
         {
-            "img_src": "/photos/site_photos-36.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-36.jpg",
-            "caption": "Fall scatterplots"
+            "img_src": "/photos/site_photos-47.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-47.jpg",
+            "caption": "Fall spectra"
         },
         {
             "img_src": "/photos/site_photos-20.jpg",
@@ -177,9 +177,9 @@
             "caption": "Market Street"
         },
         {
-            "img_src": "/photos/site_photos-21.jpg",
-            "img_src_thumb": "/thumbs/site_photos_t-21.jpg",
-            "caption": "Sunrise over San Francisco"
+            "img_src": "/photos/site_photos-53.jpg",
+            "img_src_thumb": "/thumbs/site_photos_t-53.jpg",
+            "caption": "Cherry Blossoms"
         },
         {
             "img_src": "/photos/site_photos-25.jpg",
