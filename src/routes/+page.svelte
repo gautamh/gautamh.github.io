@@ -227,7 +227,7 @@
         </div>
         <div class="col-md-10 offset-md-1" id="photos">
             <h1>Photography</h1>
-            <p>In my free time I like to take photos. Here are some samples (click to enlarge and view in a gallery):</p>
+            <p>In my free time I like to take photos. Here are some samples (click to enlarge):</p>
         </div>
         <div class="row col-md-10 offset-md-1" id="photo-imgs"> 
             {#each photos as photo}
