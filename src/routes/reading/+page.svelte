@@ -9,6 +9,11 @@
 <script>
     let books = [
         {
+            title: "Starter Villain",
+            goodreads_link: "https://www.goodreads.com/book/show/61885029-starter-villain",
+            author: "John Scalzi",
+        },
+        {
             title: "An Immense World",
             goodreads_link: "https://www.goodreads.com/en/book/show/59575939",
             author: "Ed Yong",
