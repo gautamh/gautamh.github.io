@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "Emperor of Rome",
+            goodreads_link: "https://www.goodreads.com/book/show/128747007-emperor-of-rome",
+            author: "Mary Beard",
+            notes_link: "https://drive.google.com/file/d/1glUzoyCr-U5ObuFhJcVpPBVe_4zBIu83/view?usp=sharing"
+        },
+        {
             title: "Starter Villain",
             goodreads_link: "https://www.goodreads.com/book/show/61885029-starter-villain",
             author: "John Scalzi",
