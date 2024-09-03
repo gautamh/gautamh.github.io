@@ -9,6 +9,23 @@
 <script>
     let books = [
         {
+            title: "Killers of the Flower Moon",
+            goodreads_link: "https://www.goodreads.com/book/show/193388249-killers-of-the-flower-moon",
+            author: "David Grann",
+            notes_link: "https://drive.google.com/file/d/1tnQZ300MCcQrwbO9dP8zsrC_vb1NIOJ-/view?usp=sharing"
+        },
+        {
+            title: "The Invisible Life of Addie LaRue",
+            goodreads_link: "https://www.goodreads.com/book/show/50623864-the-invisible-life-of-addie-larue",
+            author: "V. E. Schwab",
+        },
+        {
+            title: "The Slave's Cause",
+            goodreads_link: "https://www.goodreads.com/book/show/26196550-the-slave-s-cause",
+            author: "Manisha Sinha",
+            notes_link: "https://drive.google.com/file/d/1Tx2PG_0eMCCytkZaGuQpTbAnH9aABGoI/view?usp=sharing"
+        },
+        {
             title: "Emperor of Rome",
             goodreads_link: "https://www.goodreads.com/book/show/128747007-emperor-of-rome",
             author: "Mary Beard",
