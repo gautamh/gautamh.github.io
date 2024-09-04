@@ -9,6 +9,11 @@
 <script>
     let books = [
         {
+            title: "The Witness for the Prosecution and Other Stories",
+            goodreads_link: "https://www.goodreads.com/book/show/909870.The_Witness_for_the_Prosecution_and_Other_Stories",
+            author: "Agatha Christie",
+        },
+        {
             title: "Killers of the Flower Moon",
             goodreads_link: "https://www.goodreads.com/book/show/193388249-killers-of-the-flower-moon",
             author: "David Grann",
