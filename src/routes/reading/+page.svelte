@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "The Kingdom, the Power, and the Glory",
+            goodreads_link: "https://www.goodreads.com/book/show/127653704-the-kingdom-the-power-and-the-glory",
+            author: "Tim Alberta",
+            notes_link: "https://drive.google.com/file/d/1M-qzxl4hyZSiaduxcUQsrRW3lFHA5ufK/view?usp=sharing"
+        },
+        {
             title: "The Witness for the Prosecution and Other Stories",
             goodreads_link: "https://www.goodreads.com/book/show/909870.The_Witness_for_the_Prosecution_and_Other_Stories",
             author: "Agatha Christie",
