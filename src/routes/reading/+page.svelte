@@ -9,6 +9,23 @@
 <script>
     let books = [
         {
+            title: "The Art of Power",
+            goodreads_link: "https://www.goodreads.com/book/show/211143818-the-art-of-power",
+            author: "Nancy Pelosi",
+            notes_link: "https://drive.google.com/file/d/1N-aiMKQpKJB_g9np8b7x1G60ajTYVj52/view?usp=sharing"
+        },
+        {
+            title: "Beyond the Big Lie",
+            goodreads_link: "https://www.goodreads.com/book/show/207293812-beyond-the-big-lie",
+            author: "Bill Adair",
+            notes_link: "https://drive.google.com/file/d/1VQB0gmJeYiugfZj-j7hONtVytjtFdduv/view?usp=sharing"
+        },
+        {
+            title: "The Atrocity Archives",
+            goodreads_link: "https://www.goodreads.com/book/show/101869.The_Atrocity_Archives",
+            author: "Charles Stross",
+        },
+        {
             title: "The Kingdom, the Power, and the Glory",
             goodreads_link: "https://www.goodreads.com/book/show/127653704-the-kingdom-the-power-and-the-glory",
             author: "Tim Alberta",
