@@ -196,8 +196,7 @@
             <div class="jumbotron">
                 <h1>Gautam Hathi</h1>
                 <hr/>
-                <h4><i>find me on Twitter <a href="https://twitter.com/gautamhathi">@gautamhathi</a> and on <a href="https://github.com/gautamh">GitHub</a></i></h4>
-                <h5><i>also maybe try <a rel="me" href="https://mastodon.social/@gautamh">Mastodon</a></i></h5>
+                <h4><i>find me on Bluesky <a href="https://bsky.app/profile/gautamhathi.bsky.social">@gautamhathi</a> and on <a href="https://github.com/gautamh">GitHub</a></i></h4>
             </div>
         </div>
         <div class="col-md-3 header-right"> 
