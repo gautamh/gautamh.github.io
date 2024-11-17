@@ -9,6 +9,16 @@
 <script>
     let books = [
         {
+            title: "Redshirts",
+            goodreads_link: "https://www.goodreads.com/book/show/13055592-redshirts",
+            author: "John Scalzi",
+        },
+        {
+            title: "The Jennifer Morgue",
+            goodreads_link: "https://www.goodreads.com/book/show/14150.The_Jennifer_Morgue",
+            author: "Charles Stross",
+        },
+        {
             title: "The Art of Power",
             goodreads_link: "https://www.goodreads.com/book/show/211143818-the-art-of-power",
             author: "Nancy Pelosi",
