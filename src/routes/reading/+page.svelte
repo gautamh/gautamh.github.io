@@ -9,6 +9,11 @@
 <script>
     let books = [
         {
+            title: "Old Man's War",
+            goodreads_link: "https://www.goodreads.com/book/show/36510196-old-man-s-war",
+            author: "John Scalzi",
+        },
+        {
             title: "Redshirts",
             goodreads_link: "https://www.goodreads.com/book/show/13055592-redshirts",
             author: "John Scalzi",
