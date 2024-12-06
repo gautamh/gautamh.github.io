@@ -9,6 +9,12 @@
 <script>
     let books = [
         {
+            title: "Everyday Utopia",
+            goodreads_link: "https://www.goodreads.com/book/show/62919855-everyday-utopia",
+            author: "Kristen R. Ghodsee",
+            notes_link: "https://drive.google.com/file/d/12Pfl0d5wScPOdkyL6BArNiGupcvsIATE/view?usp=sharing"
+        },
+        {
             title: "Old Man's War",
             goodreads_link: "https://www.goodreads.com/book/show/36510196-old-man-s-war",
             author: "John Scalzi",
