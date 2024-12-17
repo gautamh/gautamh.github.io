@@ -9,6 +9,11 @@
 <script>
     let books = [
         {
+            title: "The Rise and Fall of the Galactic Empire",
+            goodreads_link: "https://www.goodreads.com/book/show/208713594-star-wars",
+            author: "Chris Kempshall",
+        },
+        {
             title: "Everyday Utopia",
             goodreads_link: "https://www.goodreads.com/book/show/62919855-everyday-utopia",
             author: "Kristen R. Ghodsee",
