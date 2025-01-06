@@ -7,7 +7,7 @@
 </svelte:head>
 
 <script>
-    let books = [
+    let books2024 = [
         {
             title: "The Rise and Fall of the Galactic Empire",
             goodreads_link: "https://www.goodreads.com/book/show/208713594-star-wars",
@@ -138,7 +138,9 @@
             goodreads_link: "https://www.goodreads.com/en/book/show/57293228",
             author: "Anna Keay",
             notes_link: "https://drive.google.com/file/d/1tP-5sumDM27vX_uMlLy4-q0kB1Id8vSt/view?usp=sharing"
-        },
+        }
+    ]
+    let books2023 = [
         {
             title: "How Not to Be a Politician",
             goodreads_link: "https://www.goodreads.com/book/show/112974863-how-not-to-be-a-politician",
@@ -243,6 +245,8 @@
             goodreads_link: "https://www.goodreads.com/en/book/show/5720",
             author: "Tom Clancy",
         },
+    ]
+    let books2022 = [
         {
             title: "Liar's Poker",
             goodreads_link: "https://www.goodreads.com/book/show/7865083-liar-s-poker",
@@ -342,6 +346,8 @@
             author: "Nandan Nilekani",
             notes_link: "https://drive.google.com/file/d/1SLu4bKRBUa-6pq8Wdx_dVZEEJcwRmBCL/view?usp=share_link"
         },
+    ]
+    let books2021 = [
         {
             title: "Return of a King",
             goodreads_link: "https://www.goodreads.com/en/book/show/13454654",
@@ -384,10 +390,35 @@
             Reading
         </h1>
         <section>
-            <p>Here are (most of) the things I've been reading, going back some indeterminate amount of time, along with my notes for (most of) the non-fiction stuff:</p>
+            <p>Here are (most of) the things I've been reading, going back a while, along with my notes for (most of) the non-fiction stuff:</p>
         </section>
+        <h3>2024</h3>
         <ul>
-            {#each books as book}
+            {#each books2024 as book}
+            <li>
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
+            </li>
+            {/each}
+        </ul>
+        <h3>2023</h3>
+        <ul>
+            {#each books2023 as book}
+            <li>
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
+            </li>
+            {/each}
+        </ul>
+        <h3>2022</h3>
+        <ul>
+            {#each books2022 as book}
+            <li>
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
+            </li>
+            {/each}
+        </ul>
+        <h3>2021</h3>
+        <ul>
+            {#each books2021 as book}
             <li>
                 <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
             </li>
