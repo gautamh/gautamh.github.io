@@ -138,15 +138,15 @@
             goodreads_link: "https://www.goodreads.com/en/book/show/57293228",
             author: "Anna Keay",
             notes_link: "https://drive.google.com/file/d/1tP-5sumDM27vX_uMlLy4-q0kB1Id8vSt/view?usp=sharing"
-        }
-    ]
-    let books2023 = [
+        },
         {
             title: "How Not to Be a Politician",
             goodreads_link: "https://www.goodreads.com/book/show/112974863-how-not-to-be-a-politician",
             author: "Rory Stewart",
             notes_link: "https://drive.google.com/file/d/1O9ZA38UEw-6u9AaNr-UrHImuT4Sivd0P/view?usp=sharing"
         },
+    ]
+    let books2023 = [
         {
             title: "The Iliad",
             goodreads_link: "https://www.goodreads.com/book/show/77265004-the-iliad",
@@ -245,14 +245,14 @@
             goodreads_link: "https://www.goodreads.com/en/book/show/5720",
             author: "Tom Clancy",
         },
-    ]
-    let books2022 = [
         {
             title: "Liar's Poker",
             goodreads_link: "https://www.goodreads.com/book/show/7865083-liar-s-poker",
             author: "Michael Lewis",
             notes_link: "https://drive.google.com/file/d/1Yk2wr3hCvJnhMNXdedyWnG3s3vcewIzd/view?usp=share_link"
         },
+    ]
+    let books2022 = [
         {
             title: "What If? 2",
             goodreads_link: "https://www.goodreads.com/en/book/show/60190659",
@@ -346,14 +346,14 @@
             author: "Nandan Nilekani",
             notes_link: "https://drive.google.com/file/d/1SLu4bKRBUa-6pq8Wdx_dVZEEJcwRmBCL/view?usp=share_link"
         },
-    ]
-    let books2021 = [
         {
             title: "Return of a King",
             goodreads_link: "https://www.goodreads.com/en/book/show/13454654",
             author: "William Dalrymple",
             notes_link: "https://drive.google.com/file/d/1dK1gOfrnKePSa3Iv2u4Jlv-M_FbATj2V/view?usp=share_link"
         },
+    ]
+    let books2021 = [
         {
             title: "Midnight in Chernobyl",
             goodreads_link: "https://www.goodreads.com/book/show/40538681-midnight-in-chernobyl",
