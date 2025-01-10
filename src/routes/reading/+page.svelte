@@ -147,6 +147,8 @@
             author: "Rory Stewart",
             notes_link: "https://drive.google.com/file/d/1O9ZA38UEw-6u9AaNr-UrHImuT4Sivd0P/view?usp=sharing"
         },
+    ]
+    let books2023 = [
         {
             title: "The Iliad",
             goodreads_link: "https://www.goodreads.com/book/show/77265004-the-iliad",
@@ -253,6 +255,8 @@
             author: "Michael Lewis",
             notes_link: "https://drive.google.com/file/d/1Yk2wr3hCvJnhMNXdedyWnG3s3vcewIzd/view?usp=share_link"
         },
+    ]
+    let books2022 = [
         {
             title: "What If? 2",
             goodreads_link: "https://www.goodreads.com/en/book/show/60190659",
@@ -354,6 +358,8 @@
             author: "William Dalrymple",
             notes_link: "https://drive.google.com/file/d/1dK1gOfrnKePSa3Iv2u4Jlv-M_FbATj2V/view?usp=share_link"
         },
+    ]
+    let books2021 = [
         {
             title: "Midnight in Chernobyl",
             goodreads_link: "https://www.goodreads.com/book/show/40538681-midnight-in-chernobyl",
@@ -390,7 +396,7 @@
             Reading
         </h1>
         <section>
-            <p>Here are (most of) the things I've been reading, going back some indeterminate amount of time, along with my notes for (most of) the non-fiction stuff:</p>
+            <p>Here are (most of) the things I've been reading, going back a while, along with my notes for (most of) the non-fiction stuff:</p>
         </section>
         <h3>2024</h3>
         <ul>
