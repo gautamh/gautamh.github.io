@@ -138,9 +138,7 @@
             goodreads_link: "https://www.goodreads.com/en/book/show/57293228",
             author: "Anna Keay",
             notes_link: "https://drive.google.com/file/d/1tP-5sumDM27vX_uMlLy4-q0kB1Id8vSt/view?usp=sharing"
-        }
-    ]
-    let books2023 = [
+        },
         {
             title: "How Not to Be a Politician",
             goodreads_link: "https://www.goodreads.com/book/show/112974863-how-not-to-be-a-politician",
@@ -247,8 +245,6 @@
             goodreads_link: "https://www.goodreads.com/en/book/show/5720",
             author: "Tom Clancy",
         },
-    ]
-    let books2022 = [
         {
             title: "Liar's Poker",
             goodreads_link: "https://www.goodreads.com/book/show/7865083-liar-s-poker",
@@ -350,8 +346,6 @@
             author: "Nandan Nilekani",
             notes_link: "https://drive.google.com/file/d/1SLu4bKRBUa-6pq8Wdx_dVZEEJcwRmBCL/view?usp=share_link"
         },
-    ]
-    let books2021 = [
         {
             title: "Return of a King",
             goodreads_link: "https://www.goodreads.com/en/book/show/13454654",
