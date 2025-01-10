@@ -7,7 +7,26 @@
 </svelte:head>
 
 <script>
+    let books2025 = [
+        {
+            title: "Nuclear War",
+            goodreads_link: "https://www.goodreads.com/book/show/182733784-nuclear-war",
+            author: "Annie Jacobsen",
+            notes_link: "https://drive.google.com/file/d/1odwdtxXVa8Ur3SDz_O7PQzf0uZIvTzTi/view?usp=sharing"
+        },
+        {
+            title: "The Grief of Stones",
+            goodreads_link: "https://www.goodreads.com/book/show/58724898-the-grief-of-stones",
+            author: "Katherine Addison",
+        },
+    ]
     let books2024 = [
+        {
+            title: "The Dark Side",
+            goodreads_link: "https://www.goodreads.com/en/book/show/3280003-the-dark-side",
+            author: "Jane Mayer",
+            notes_link: "https://drive.google.com/file/d/1E-AGRvSBxzRnhaHp384EfRX1Slx77_6-/view?usp=sharing"
+        },
         {
             title: "The Rise and Fall of the Galactic Empire",
             goodreads_link: "https://www.goodreads.com/book/show/208713594-star-wars",
@@ -392,6 +411,14 @@
         <section>
             <p>Here are (most of) the things I've been reading, going back a while, along with my notes for (most of) the non-fiction stuff:</p>
         </section>
+        <h3>2025</h3>
+        <ul>
+            {#each books2025 as book}
+            <li>
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
+            </li>
+            {/each}
+        </ul>
         <h3>2024</h3>
         <ul>
             {#each books2024 as book}
