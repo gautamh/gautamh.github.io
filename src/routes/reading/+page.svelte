@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "Why Didn't They Ask Evans?",
+            goodreads_link: "https://www.goodreads.com/book/show/102303.Why_Didn_t_They_Ask_Evans_",
+            author: "Agatha Christie",
+        },
+        {
             title: "Nuclear War",
             goodreads_link: "https://www.goodreads.com/book/show/182733784-nuclear-war",
             author: "Annie Jacobsen",
