@@ -9,6 +9,12 @@
 <script>
     let books2025 = [
         {
+            title: "Recoding America",
+            goodreads_link: "https://www.goodreads.com/nl/book/show/61796680",
+            author: "Jennifer Pahlka",
+            notes_link: "https://drive.google.com/file/d/13MUIOFSio_6Ra_s22szVMMgavEDEC1AY/view?usp=sharing"
+        },
+        {
             title: "Why Didn't They Ask Evans?",
             goodreads_link: "https://www.goodreads.com/book/show/102303.Why_Didn_t_They_Ask_Evans_",
             author: "Agatha Christie",
