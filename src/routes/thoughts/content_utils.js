@@ -8,6 +8,10 @@ import remarkParse from 'remark-parse';
 import { visit } from 'unist-util-visit';
 
 export const POST_MAP = {
+    "reading-2024": {
+      docId: "1uXheKyYSpxj2UFOb2ehDRIX71_EUmo7nPrzEvrujhg4",
+      published: true
+    },
     "llm-fec-scraping": {
       docId: "1TujwPxRbckbKoU43nHNkhwtqk7bFrZYaIVKOoZBaVFU",
       published: true
