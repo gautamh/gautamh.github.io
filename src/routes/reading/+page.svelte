@@ -422,7 +422,7 @@
         <section>
             <p>Here are (most of) the things I've been reading, going back a while, along with my notes for (most of) the non-fiction stuff:</p>
         </section>
-        <h3>2025</h3>
+        <h3 id="2025">2025</h3>
         <ul>
             {#each books2025 as book}
             <li>
@@ -430,7 +430,7 @@
             </li>
             {/each}
         </ul>
-        <h3>2024</h3>
+        <h3 id="2024">2024</h3>
         <ul>
             {#each books2024 as book}
             <li>
@@ -438,7 +438,7 @@
             </li>
             {/each}
         </ul>
-        <h3>2023</h3>
+        <h3 id="2023">2023</h3>
         <ul>
             {#each books2023 as book}
             <li>
@@ -446,7 +446,7 @@
             </li>
             {/each}
         </ul>
-        <h3>2022</h3>
+        <h3 id="2022">2022</h3>
         <ul>
             {#each books2022 as book}
             <li>
@@ -454,7 +454,7 @@
             </li>
             {/each}
         </ul>
-        <h3>2021</h3>
+        <h3 id="2021">2021</h3>
         <ul>
             {#each books2021 as book}
             <li>
