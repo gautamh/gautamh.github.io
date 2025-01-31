@@ -57,7 +57,7 @@ jobs:
         with:
           limit-access-to-actor: true
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./build
 
@@ -68,5 +68,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v1
+      - uses: actions/deploy-pages@v4
         id: deployment
