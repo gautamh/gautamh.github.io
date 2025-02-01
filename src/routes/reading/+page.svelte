@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "The Tainted Cup",
+            goodreads_link: "https://www.goodreads.com/en/book/show/150247395-the-tainted-cup",
+            author: "Robert Jackson Bennett",
+        },
+        {
             title: "Recoding America",
             goodreads_link: "https://www.goodreads.com/nl/book/show/61796680",
             author: "Jennifer Pahlka",
