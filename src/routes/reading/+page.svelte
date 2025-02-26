@@ -9,6 +9,17 @@
 <script>
     let books2025 = [
         {
+            title: "Sink the Bismarck!",
+            goodreads_link: "https://www.goodreads.com/book/show/45729565-sink-the-bismarck",
+            author: "C.S. Forester",
+        },
+        {
+            title: "Wages of Guilt",
+            goodreads_link: "https://www.goodreads.com/book/show/2253712.Wages_of_Guilt",
+            author: "Ian Buruma",
+            notes_link: "https://drive.google.com/file/d/1xqM51CvdwpZs1Yg5P5teKi2K9fkmTRCM/view?usp=sharing"
+        },
+        {
             title: "The Tainted Cup",
             goodreads_link: "https://www.goodreads.com/en/book/show/150247395-the-tainted-cup",
             author: "Robert Jackson Bennett",
