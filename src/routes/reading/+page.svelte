@@ -9,6 +9,17 @@
 <script>
     let books2025 = [
         {
+            title: "The Space Between Worlds",
+            goodreads_link: "https://www.goodreads.com/book/show/43301353-the-space-between-worlds",
+            author: "Micaiah Johnson",
+        },
+        {
+            title: "Public Opinion",
+            goodreads_link: "https://www.goodreads.com/book/show/920442.Public_Opinion",
+            author: "Walter Lippmann",
+            notes_link: "https://drive.google.com/file/d/1GUL_6IYpbSq91P68wiyXOw90YGOTGJHX/view?usp=sharing"
+        },
+        {
             title: "Sink the Bismarck!",
             goodreads_link: "https://www.goodreads.com/book/show/45729565-sink-the-bismarck",
             author: "C.S. Forester",
