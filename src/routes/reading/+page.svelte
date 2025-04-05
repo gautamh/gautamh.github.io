@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "A Memory Called Empire",
+            goodreads_link: "https://www.goodreads.com/book/show/37794149-a-memory-called-empire",
+            author: "Arkady Martine",
+        },
+        {
             title: "The Space Between Worlds",
             goodreads_link: "https://www.goodreads.com/book/show/43301353-the-space-between-worlds",
             author: "Micaiah Johnson",
