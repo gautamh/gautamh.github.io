@@ -1,0 +1,111 @@
+.album-img {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+#photo-imgs {
+    /* Prevent vertical gaps */
+    line-height: 0;
+    display: block;
+    z-index: 1;
+    
+    -webkit-column-count: 5;
+    -webkit-column-gap:   8px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           8px;
+    margin-bottom:        25px;
+}
+
+#photo-imgs img {
+    /* Just in case there are inline attributes */
+    // width: 280px;
+    height: auto !important;
+    
+    border-width: 20px, 20px, 0px, 0px;
+    
+    transition: all 0.3s;
+    overflow: visible;
+
+}
+
+#photo-imgs a {
+    /* Just in case there are inline attributes */
+    // width: auto;
+    width: 100%;
+    height: auto !important;
+    overflow: visible;
+}
+
+#photo-imgs img:hover {
+    transform: scale(1.03);
+    z-index: 99;
+}
+
+@media (max-width: 1750px) {
+    #photo-imgs {
+        -moz-column-count:    4;
+        -webkit-column-count: 4;
+        column-count:         4;
+    }
+
+    #photo-imgs a {
+        display: block;
+    }
+
+    #photo-imgs img {
+        width: 100%;
+        margin: 8px 0px;
+        display: block;
+    }
+}
+
+@media (max-width: 1450px) {
+    #photo-imgs {
+        -moz-column-count:    3;
+        -webkit-column-count: 3;
+        column-count:         3;
+    }
+
+    #photo-imgs a {
+        display: block;
+    }
+
+    #photo-imgs img {
+        width: 100%;
+        margin: 8px 0px;
+        display: block;
+    }
+}
+@media (max-width: 1050px) {
+    #photo-imgs {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
+    }
+
+    #photo-imgs a {
+        display: block;
+    }
+
+    #photo-imgs img {
+        width: 100%;
+        margin: 8px 0px;
+        display: block;
+    }
+}
+@media (max-width: 750px) {
+    #photo-imgs {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+        column-count:         1;
+    }
+
+    #photo-imgs img {
+        margin: 8px auto;
+        display: block;
+    }
+}
