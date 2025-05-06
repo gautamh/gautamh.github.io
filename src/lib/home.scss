@@ -133,6 +133,10 @@ body {
     overflow: visible;
 }
 
+#photo-imgs img:nth-child(1) {
+    margin-top: 0px;
+}
+
 #photo-imgs img:hover {
     transform: scale(1.03);
     z-index: 99;
