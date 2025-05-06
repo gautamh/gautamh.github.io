@@ -10,7 +10,7 @@
         {
             "title": "Cherry Blossoms 2025", 
             "album_desc": "Photos of Spring 2025 cherry blossoms in Central Park.",
-            "img_src": "/photos/site_photos-2.jpg",
+            "img_src": "/photos/cherry-blossoms/cherry_blossoms-25.jpg",
             "link": "/photography/cherry-blossoms"
         },
     ];
