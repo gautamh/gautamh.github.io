@@ -113,8 +113,10 @@ body {
 }
 
 #photo-imgs img {
+    width: 100%;
     /* Just in case there are inline attributes */
     height: auto !important;
+    display: block;
     
     margin: 8px 0px;
     border-width: 20px, 20px, 0px, 0px;
