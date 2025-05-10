@@ -213,24 +213,25 @@
                 <Project title={project.title} project_desc={project.project_desc} img_src={project.img_src} link={project.link}/>
             {/each}
         </div>
-        <div class="col-md-10 offset-md-1" id="writing">
-            <h1>Writing</h1>
-        </div>
-        <div class="col-md-10 offset-md-1">
-            <p>See also the <a href="../../thoughts">Thoughts</a> page.</p>
-        </div>
-        <div class="row col-md-10 offset-md-1">
-            {#each writings as writing}
-                <Writing title={writing.story_title} pullquote={writing.pullquote} source={writing.source} link={writing.link} />
-            {/each}
-        </div>
         <div class="col-md-10 offset-md-1" id="photos">
             <h1>Photography</h1>
-            <p>In my free time I like to take photos. Here are some samples (click to enlarge):</p>
+            <p>In my free time I like to take photos. Here are some samples, with more on the <a href="../../photography">Photography</a> page (click to enlarge):</p>
         </div>
         <div class="row col-md-10 offset-md-1" id="photo-imgs"> 
             {#each photos as photo}
                 <Photo img_src={photo.img_src} caption={photo.caption} img_src_thumb={photo.img_src_thumb} />
+            {/each}
+        </div>
+        <div class="col-md-10 offset-md-1" id="writing">
+            <h1>Writing</h1>
+        </div>
+        <div class="col-md-10 offset-md-1">
+            <p>A long time a go I used to write for some student publications. Here's some of the best of that:</p>
+            <p>(See also the <a href="../../thoughts">Thoughts</a> page.)</p>
+        </div>
+        <div class="row col-md-10 offset-md-1">
+            {#each writings as writing}
+                <Writing title={writing.story_title} pullquote={writing.pullquote} source={writing.source} link={writing.link} />
             {/each}
         </div>
     </div>

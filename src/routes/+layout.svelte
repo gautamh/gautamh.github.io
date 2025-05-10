@@ -69,7 +69,7 @@
                             <a class="nav-link" href="/#writing">Writing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#photos">Photography</a>
+                            <a class="nav-link" href="/photography">Photography</a>
                         </li>
                         <li class="nav-item {($page.url.pathname === '/thoughts')? 'active' : 'inactive'}">
                             <a class="nav-link" href="/thoughts">Thoughts</a>
