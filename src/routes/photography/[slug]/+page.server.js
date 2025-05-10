@@ -10,11 +10,59 @@ const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 const ALBUM_MAP = {
     "cherry-blossoms": {
       albumName: "NYC Cherry Blossoms 2025",
-      albumDescription: "Cherry trees in bloom across Central Park in NYC",
+      albumDescription: "Cherry trees in bloom across Central Park in NYC during the spring of 2025",
     },
     "no-kings": {
       albumName: "No Kings Protest",
       albumDescription: "Photos from the No Kings NYC protest on April 19, 2025",
+    },
+    "hands-off": {
+      albumName: "Hands Off Protest",
+      albumDescription: "Photos from the Hands Off NYC protest on April 5, 2025",
+    },
+    "winter-2425": {
+      albumName: "Winter 2024-25",
+      albumDescription: "Winter 2024-25 photos",
+    },
+    "fall-24": {
+      albumName: "Fall 2024",
+      albumDescription: "Fall 2024 photos",
+    },
+    "summer-24": {
+      albumName: "Summer 2024",
+      albumDescription: "Summer 2024 photos",
+    },
+    "cherry-blossoms-24": {
+      albumName: "NYC Cherry Blossoms 2024",
+      albumDescription: "Cherry trees in bloom across Central Park in NYC during the spring of 2024",
+    },
+    "eclipse-24": {
+      albumName: "2024 Solar Eclipse",
+      albumDescription: "Photos of the April 8, 2024 total solar eclipse",
+    },
+    "winter-2324": {
+      albumName: "Winter 2023-24",
+      albumDescription: "Winter 2023-24 photos",
+    },
+    "fall-23": {
+      albumName: "Fall 2023",
+      albumDescription: "Fall 2023 photos",
+    },
+    "manhattanhenge-23": {
+      albumName: "Manhattanhenge 2023",
+      albumDescription: "Photos from Manhattanhenge in May 2023. Some of these photos are taken from the Tudor City Bridge while others are from the 14th St side of Union Square.",
+    },
+    "winter-2223": {
+      albumName: "Winter 2022-23",
+      albumDescription: "Winter 2022-23 photos",
+    },
+    "fall-22": {
+      albumName: "Fall 2022",
+      albumDescription: "Fall 2022 photos",
+    },
+    "summer-22": {
+      albumName: "Summer 2022",
+      albumDescription: "Summer 2022 photos",
     },
   };
 
