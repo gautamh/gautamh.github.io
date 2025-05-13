@@ -9,6 +9,12 @@
 <script>
     let books2025 = [
         {
+            title: "The Death and Life of Great American Cities",
+            goodreads_link: "https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities",
+            author: "Jane Jacobs",
+            notes_link: "https://drive.google.com/file/d/1NA6hOV-b7yZVW6GkxRO013NaFXrQB5hY/view?usp=sharing"
+        },
+        {
             title: "A Memory Called Empire",
             goodreads_link: "https://www.goodreads.com/book/show/37794149-a-memory-called-empire",
             author: "Arkady Martine",
