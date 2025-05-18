@@ -14,25 +14,25 @@
             "link": "/photography/cherry-blossoms"
         },
         {
-            "title": " Hands Off",
+            "title": "Hands Off",
             "album_desc": "Photos from the Hands Off protest in New York City on April 5, 2025.",
             "img_src": "/thumbs/hands-off/hands_off_t-46.jpg",
             "link": "/photography/hands-off"
         },
         {
-            "title": " Winter 2024-25",
+            "title": "Winter 2024-25",
             "album_desc": "Winter 2024-25 photos.",
             "img_src": "/thumbs/winter-2425/winter_2425_t-10.jpg",
             "link": "/photography/winter-2425"
         },
         {
-            "title": " Fall 2024",
+            "title": "Fall 2024",
             "album_desc": "Fall 2024 photos.",
             "img_src": "/thumbs/fall-24/fall_24_t-14.jpg",
             "link": "/photography/fall-24"
         },
         {
-            "title": " Summer 2024",
+            "title": "Summer 2024",
             "album_desc": "Summer 2024 photos.",
             "img_src": "/thumbs/summer-24/summer_24_t-7.jpg",
             "link": "/photography/summer-24"
@@ -50,7 +50,7 @@
             "link": "/photography/eclipse-24"
         },
         {
-            "title": " Winter 2023-24",
+            "title": "Winter 2023-24",
             "album_desc": "Winter 2023-24 photos.",
             "img_src": "/thumbs/winter-2324/winter_2324_t-1.jpg",
             "link": "/photography/winter-2324"
@@ -68,7 +68,7 @@
             "link": "/photography/manhattanhenge-23"
         },
         {
-            "title": " Winter 2022-23",
+            "title": "Winter 2022-23",
             "album_desc": "Winter 2022-23 photos.",
             "img_src": "/thumbs/winter-2223/winter_2223_t-6.jpg",
             "link": "/photography/winter-2223"
@@ -80,7 +80,7 @@
             "link": "/photography/fall-22"
         },
         {
-            "title": " Summer 2022",
+            "title": "Summer 2022",
             "album_desc": "Summer 2022 photos.",
             "img_src": "/thumbs/summer-22/summer_22_t-5.jpg",
             "link": "/photography/summer-22"
