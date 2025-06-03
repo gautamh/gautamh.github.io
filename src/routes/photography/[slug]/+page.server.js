@@ -8,6 +8,10 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
+    "almost-manhattanhenge-may-25": {
+      albumName: "(Almost) Manhattanhenge May 2025",
+      albumDescription: "Not-quite-Manhattanhenge photos from May 2025. The first set of photos are from a couple of days before Manhattanhenge, when the sun didn't quite line up with the streets but the weather was good. The second set of photos are from the day in May when Manhattanhenge was supposed to happen but clouds (just barely) got in the way.",
+    },
     "spring-25": {
       albumName: "Spring 2025",
       albumDescription: "Spring 2025 photos",
