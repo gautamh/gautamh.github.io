@@ -9,6 +9,12 @@
 <script>
     let books2025 = [
         {
+            title: "Bad Samaritans",
+            goodreads_link: "https://www.goodreads.com/book/show/1032019.Bad_Samaritans",
+            author: "Ha-Joon Chang",
+            notes_link: "https://drive.google.com/file/d/1mrR6aP9u3EueZi4-k4tKKCI9TC2krAOk/view?usp=sharing"
+        },
+        {
             title: "The Good Shepherd",
             goodreads_link: "https://www.goodreads.com/book/show/42748909-the-good-shepherd",
             author: "C.S. Forester",
