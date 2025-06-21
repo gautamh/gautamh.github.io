@@ -21,7 +21,7 @@ const ALBUM_MAP = {
       albumDescription: "Cherry trees in bloom across Central Park in NYC during the spring of 2025",
     },
     "no-kings": {
-      albumName: "No Kings Protest",
+      albumName: "No Kings Protest (April 2025)",
       albumDescription: "Photos from the No Kings NYC protest on April 19, 2025",
     },
     "hands-off": {

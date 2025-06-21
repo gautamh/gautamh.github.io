@@ -14,7 +14,7 @@
             "link": "/photography/spring-25"
         },
         {
-            "title": "No Kings",
+            "title": "No Kings (April 2025)",
             "album_desc": "Photos from the No Kings protest in New York City on April 19, 2025.",
             "img_src": "/thumbs/no-kings/no_kings_t-36.jpg",
             "link": "/photography/no-kings"
