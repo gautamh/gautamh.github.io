@@ -13,7 +13,7 @@
 
 <div class="col-md-10 offset-md-1" id="photos">
     <h1>{data.albumName}</h1>
-    <p>{data.albumDescription}</p>
+    <p>{@html data.albumDescription}</p>
     <p>(Click to enlarge)</p>
 </div>
 

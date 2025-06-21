@@ -8,6 +8,10 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
+    "no-kings-june-2025": {
+      albumName: "No Kings Protest (June 2025)",
+      albumDescription: "Photos from the No Kings NYC protest on June 14, 2025. This was the protest that coincided with Trump's birthday parade and also Flag Day (which may explain the large number of American flags that people had at the protest in particular).",
+    },
     "almost-manhattanhenge-may-25": {
       albumName: "(Almost) Manhattanhenge May 2025",
       albumDescription: "Not-quite-Manhattanhenge photos from May 2025, taken at Tudor City Bridge. The first set of photos are from a couple of days before Manhattanhenge, when the sun didn't quite line up with the streets but the weather was good. The second set of photos are from the day in May when Manhattanhenge was supposed to happen but clouds (just barely) got in the way.",
@@ -22,7 +26,7 @@ const ALBUM_MAP = {
     },
     "no-kings": {
       albumName: "No Kings Protest (April 2025)",
-      albumDescription: "Photos from the No Kings NYC protest on April 19, 2025",
+      albumDescription: "Photos from the No Kings NYC protest on April 19, 2025 (note that this is a smaller, earlier protest than the <a href='./no-kings-june-2025'>big No Kings protest on June 14, 2025</a>)",
     },
     "hands-off": {
       albumName: "Hands Off Protest",
