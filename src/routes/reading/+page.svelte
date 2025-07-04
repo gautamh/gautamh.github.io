@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "Five Ways to Forgiveness",
+            goodreads_link: "https://www.goodreads.com/book/show/36366224-five-ways-to-forgiveness",
+            author: "Ursula K. Le Guin",
+        },
+        {
             title: "Bad Samaritans",
             goodreads_link: "https://www.goodreads.com/book/show/1032019.Bad_Samaritans",
             author: "Ha-Joon Chang",
