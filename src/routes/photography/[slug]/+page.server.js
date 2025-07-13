@@ -8,6 +8,10 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
+    "window-sunsets-25": {
+      albumName: "Window Sunsets 2025",
+      albumDescription: "From late May through mid-July, the sun sets outside my window. If it's not too cloudy, there are often some great pictures that result.",
+    },
     "no-kings-june-2025": {
       albumName: "No Kings Protest (June 2025)",
       albumDescription: "Photos from the No Kings NYC protest on June 14, 2025. This was the protest that coincided with Trump's birthday parade and also Flag Day (which may explain the large number of American flags that people had at the protest in particular).",

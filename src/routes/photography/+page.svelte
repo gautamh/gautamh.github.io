@@ -2,6 +2,12 @@
     import Album from './Album.svelte';
     let albums = [
         {
+            "title": "Window Sunsets 2025",
+            "album_desc": "Summer 2025 sunset photos from my window.",
+            "img_src": "/thumbs/window-sunsets-25/window_sunsets_25_t-24.jpg",
+            "link": "/photography/window-sunsets-25"
+        },
+        {
             "title": "No Kings (June 2025)",
             "album_desc": "Photos from the No Kings protest in New York City on June 14, 2025.",
             "img_src": "/thumbs/no-kings-june-2025/no_kings_june_2025_t-28.jpg",
