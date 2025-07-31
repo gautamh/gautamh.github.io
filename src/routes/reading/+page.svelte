@@ -9,6 +9,12 @@
 <script>
     let books2025 = [
         {
+            title: "The Golden Road",
+            goodreads_link: "https://www.goodreads.com/en/book/show/201608148-the-golden-road",
+            author: "William Dalrymple",
+            notes_link: "https://drive.google.com/file/d/1yXaJJ0FFT5-L7rLZYg8JRnHdXAr4t4_Q/view?usp=sharing"
+        },
+        {
             title: "Five Ways to Forgiveness",
             goodreads_link: "https://www.goodreads.com/book/show/36366224-five-ways-to-forgiveness",
             author: "Ursula K. Le Guin",
