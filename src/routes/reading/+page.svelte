@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "The Tomb of Dragons",
+            goodreads_link: "https://www.goodreads.com/book/show/211004174-the-tomb-of-dragons",
+            author: "Katherine Addison",
+        },
+        {
             title: "The Golden Road",
             goodreads_link: "https://www.goodreads.com/en/book/show/201608148-the-golden-road",
             author: "William Dalrymple",
