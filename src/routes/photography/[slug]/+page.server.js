@@ -8,6 +8,10 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
+  "summer-25": {
+      albumName: "Summer 2025",
+      albumDescription: "Summer 2025 photos (that aren't in the other collections)",
+    },
     "window-sunsets-25": {
       albumName: "Window Sunsets 2025",
       albumDescription: "From late May through mid-July, the sun sets outside my window. If it's not too cloudy, there are often some nice pictures that result.",
