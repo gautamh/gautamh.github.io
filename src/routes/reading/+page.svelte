@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "A Drop of Corruption",
+            goodreads_link: "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
+            author: "Robert Jackson Bennett",
+        },
+        {
             title: "The Fuller Memorandum",
             goodreads_link: "https://www.goodreads.com/book/show/7149287-the-fuller-memorandum",
             author: "Charles Stross",
