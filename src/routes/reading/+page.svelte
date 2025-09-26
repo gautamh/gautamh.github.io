@@ -9,6 +9,12 @@
 <script>
     let books2025 = [
         {
+            title: "Operation Paperclip",
+            goodreads_link: "https://www.goodreads.com/book/show/182733784-nuclear-war",
+            author: "Annie Jacobsen",
+            notes_link: "https://drive.google.com/file/d/1FHzj9ZVnIWKrVLmwiGTZ4YgaQR4QkwNw/view?usp=sharing"
+        },
+        {
             title: "A Drop of Corruption",
             goodreads_link: "https://www.goodreads.com/book/show/213618143-a-drop-of-corruption",
             author: "Robert Jackson Bennett",
