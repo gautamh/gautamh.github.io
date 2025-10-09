@@ -9,6 +9,11 @@
 <script>
     let books2025 = [
         {
+            title: "Katabasis",
+            goodreads_link: "https://www.goodreads.com/book/show/210223811-katabasis",
+            author: "R. F. Kuang",
+        },
+        {
             title: "Operation Paperclip",
             goodreads_link: "https://www.goodreads.com/book/show/182733784-nuclear-war",
             author: "Annie Jacobsen",
