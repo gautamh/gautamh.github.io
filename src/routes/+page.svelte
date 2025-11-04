@@ -4,10 +4,10 @@
         import Writing from './Writing.svelte';
         import Photo from './Photo.svelte';
         let projects = [
-            {
+        {
             "title": "Tech Contributions Monitor",
             "project_desc": "A page to track political contributions by big tech companies and their executives.",
-            "img_src": "/img/tech_contribs.PNG",
+            "img_src": "/img/tech_contribs.png",
             "link": "https://gautamhathi.com/tech-contrib-monitor"
         },
         {
