@@ -3,8 +3,13 @@
         import Project from './Project.svelte';
         import Writing from './Writing.svelte';
         import Photo from './Photo.svelte';
-        // import alala_path from '/alala_path.PNG';
         let projects = [
+            {
+            "title": "Tech Contributions Monitor",
+            "project_desc": "A page to track political contributions by big tech companies and their executives.",
+            "img_src": "/img/tech_contribs.PNG",
+            "link": "https://gautamhathi.com/tech-contrib-monitor"
+        },
         {
             "title": "ML for data generation",
             "project_desc": "A paper based on a project I worked on at Google to generate structured data by training Variational Auto Encoders.",
