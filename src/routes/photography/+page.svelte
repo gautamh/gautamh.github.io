@@ -2,6 +2,12 @@
     import Album from './Album.svelte';
     let albums = [
         {
+            "title": "Fall 2025",
+            "album_desc": "Fall 2025 photos.",
+            "img_src": "/thumbs/fall-25/fall_25_t-14.jpg",
+            "link": "/photography/fall-25"
+        },
+        {
             "title": "Summer 2025",
             "album_desc": "Summer 2025 photos.",
             "img_src": "/thumbs/summer-25/summer_25_t-15.jpg",

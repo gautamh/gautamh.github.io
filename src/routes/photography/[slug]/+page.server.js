@@ -8,7 +8,11 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
-  "summer-25": {
+    "fall-25": {
+      albumName: "Fall 2025",
+      albumDescription: "Fall 2025 photos",
+    },
+    "summer-25": {
       albumName: "Summer 2025",
       albumDescription: "Summer 2025 photos (that aren't in the other collections)",
     },
