@@ -9,6 +9,17 @@
 <script>
     let books2025 = [
         {
+            title: "Double Cross",
+            goodreads_link: "https://www.goodreads.com/book/show/13154628-double-cross",
+            author: "Ben Macintyre",
+        },
+        {
+            title: "Let Only Red Flowers Bloom",
+            goodreads_link: "https://www.goodreads.com/book/show/214986252-let-only-red-flowers-bloom",
+            author: "Emily Feng",
+            notes_link: "https://drive.google.com/file/d/1HjhTMIjR_kEccUyDemVbGtXNzB8juoqA/view?usp=sharing"
+        },
+        {
             title: "We the People",
             goodreads_link: "https://www.goodreads.com/book/show/223736225-we-the-people",
             author: "Jill Lepore",
