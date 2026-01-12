@@ -9,6 +9,22 @@
 <script>
     let books2025 = [
         {
+            title: "The Siege",
+            goodreads_link: "https://www.goodreads.com/book/show/203767605-the-siege",
+            author: "Ben Macintyre",
+            notes_link: "https://drive.google.com/file/d/1-XpXDs9loIotGPFCZnXtBSWXTnFkpey8/view?usp=drive_link"
+        },
+        {
+            title: "A Psalm for the Wild-Built",
+            goodreads_link: "https://www.goodreads.com/book/show/40864002-a-psalm-for-the-wild-built",
+            author: "Becky Chambers",
+        },
+        {
+            title: "The Human Scale",
+            goodreads_link: "https://www.goodreads.com/book/show/214537819-the-human-scale",
+            author: "Lawrence Wright",
+        },
+        {
             title: "Double Cross",
             goodreads_link: "https://www.goodreads.com/book/show/13154628-double-cross",
             author: "Ben Macintyre",
