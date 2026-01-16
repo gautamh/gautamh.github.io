@@ -8,6 +8,10 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
+    "ice-out": {
+      albumName: "Ice Out for Good Protest",
+      albumDescription: "Photos from the Ice Out for Good NYC protest on January 11, 2026",
+    },
     "fall-25": {
       albumName: "Fall 2025",
       albumDescription: "Fall 2025 photos",
