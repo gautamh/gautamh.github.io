@@ -9,6 +9,12 @@
 <script>
     let books2025 = [
         {
+            title: "An Army at Dawn",
+            goodreads_link: "https://www.goodreads.com/book/show/541920.An_Army_at_Dawn",
+            author: "Rick Atkinson",
+            notes_link: "https://drive.google.com/file/d/1JCBn1Ifx23aJ75eT4B6cxZoRxOjUTMj1/view?usp=sharing"
+        },
+        {
             title: "The Siege",
             goodreads_link: "https://www.goodreads.com/book/show/203767605-the-siege",
             author: "Ben Macintyre",
