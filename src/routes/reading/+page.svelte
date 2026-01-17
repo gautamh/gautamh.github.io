@@ -9,6 +9,11 @@
 <script>
     let books2026 = [
         {
+            title: "A Prayer for the Crown-Shy",
+            goodreads_link: "https://www.goodreads.com/book/show/40864030-a-prayer-for-the-crown-shy",
+            author: "Becky Chambers",
+        },
+        {
             title: "An Army at Dawn",
             goodreads_link: "https://www.goodreads.com/book/show/541920.An_Army_at_Dawn",
             author: "Rick Atkinson",
