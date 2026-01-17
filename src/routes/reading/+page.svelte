@@ -7,13 +7,15 @@
 </svelte:head>
 
 <script>
-    let books2025 = [
+    let books2026 = [
         {
             title: "An Army at Dawn",
             goodreads_link: "https://www.goodreads.com/book/show/541920.An_Army_at_Dawn",
             author: "Rick Atkinson",
             notes_link: "https://drive.google.com/file/d/1JCBn1Ifx23aJ75eT4B6cxZoRxOjUTMj1/view?usp=sharing"
         },
+    ]
+    let books2025 = [
         {
             title: "The Siege",
             goodreads_link: "https://www.goodreads.com/book/show/203767605-the-siege",
@@ -552,6 +554,14 @@
         <section>
             <p>Here are (most of) the things I've been reading, going back a while, along with my notes for (most of) the non-fiction stuff:</p>
         </section>
+        <h3 id="2026">2026</h3>
+        <ul>
+            {#each books2026 as book}
+            <li>
+                <em><a href={book.goodreads_link} target="_blank" rel="noopener noreferrer">{book.title}</a></em> - {book.author} {#if "notes_link" in book && book.notes_link !== ""}<a href={book.notes_link} target="_blank" rel="noopener noreferrer">(Notes)</a>{/if}
+            </li>
+            {/each}
+        </ul>
         <h3 id="2025">2025</h3>
         <ul>
             {#each books2025 as book}
