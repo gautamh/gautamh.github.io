@@ -8,6 +8,10 @@ import remarkParse from 'remark-parse';
 import { visit } from 'unist-util-visit';
 
 export const POST_MAP = {
+    "reading-2025": {
+      docId: "1GwXV7I8pI8-CGNk81JZqxZCgkC9t56uW1P4D9L2TZEg",
+      published: false
+    },
     "reading-2024": {
       docId: "1uXheKyYSpxj2UFOb2ehDRIX71_EUmo7nPrzEvrujhg4",
       published: true
