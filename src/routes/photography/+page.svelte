@@ -2,6 +2,12 @@
     import Album from './Album.svelte';
     let albums = [
         {
+            "title": "Winter 2025-26",
+            "album_desc": "Winter 2025-26 photos.",
+            "img_src": "/thumbs/winter-2526/winter_2526_t-17.jpg",
+            "link": "/photography/winter-2526"
+        },
+        {
             "title": "Ice Out for Good",
             "album_desc": "Photos from the Ice Out for Good protest in New York City on January 11, 2026.",
             "img_src": "/thumbs/ice-out/ice_out_t-39.jpg",
