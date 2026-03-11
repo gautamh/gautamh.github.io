@@ -9,6 +9,12 @@
 <script>
     let books2026 = [
         {
+            title: "Queen Victoria and Her Prime Ministers",
+            goodreads_link: "https://www.goodreads.com/book/show/207611592-queen-victoria-and-her-prime-ministers",
+            author: "Anne Somerset",
+            notes_link: "https://drive.google.com/file/d/1N81Ra11qgzK3A4IroKxxu-spNzTPxAMq/view?usp=sharing"
+        },
+        {
             title: "Ten Incarnations of Rebellion",
             goodreads_link: "https://www.goodreads.com/book/show/218460368-ten-incarnations-of-rebellion",
             author: "Vaishnavi Patel",
