@@ -2,6 +2,12 @@
     import Album from './Album.svelte';
     let albums = [
         {
+            "title": "No Kings (March 2026)",
+            "album_desc": "Photos from the No Kings protest in New York City on March 28, 2026.",
+            "img_src": "/thumbs/no-kings-march-2026/no_kings_march_2026_t-35.jpg",
+            "link": "/photography/no-kings-march-2026"
+        },
+        {
             "title": "Winter 2025-26",
             "album_desc": "Winter 2025-26 photos.",
             "img_src": "/thumbs/winter-2526/winter_2526_t-17.jpg",
