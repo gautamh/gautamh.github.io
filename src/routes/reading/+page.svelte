@@ -9,6 +9,17 @@
 <script>
     let books2026 = [
         {
+            title: "When the Sea Came Alive",
+            goodreads_link: "https://www.goodreads.com/en/book/show/199797834-when-the-sea-came-alive",
+            author: "Garrett M. Graff",
+            notes_link: "https://drive.google.com/file/d/1j4NuvOOcoUpAF5oUys1EUCJP0Y5iTAim/view?usp=sharing"
+        },
+        {
+            title: "Heir to the Empire",
+            goodreads_link: "https://www.goodreads.com/book/show/40604754-star-wars",
+            author: "Timothy Zahn",
+        },
+        {
             title: "Queen Victoria and Her Prime Ministers",
             goodreads_link: "https://www.goodreads.com/book/show/207611592-queen-victoria-and-her-prime-ministers",
             author: "Anne Somerset",
