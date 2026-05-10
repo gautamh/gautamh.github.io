@@ -9,6 +9,21 @@
 <script>
     let books2026 = [
         {
+            title: "Vicious",
+            goodreads_link: "https://www.goodreads.com/book/show/40874032-vicious",
+            author: "V. E. Schwab",
+        },
+        {
+            title: "Hyperion",
+            goodreads_link: "https://www.goodreads.com/book/show/77566.Hyperion",
+            author: "Dan Simmons",
+        },
+        {
+            title: "Mistborn: The Final Empire",
+            goodreads_link: "https://www.goodreads.com/en/book/show/68428.Mistborn",
+            author: "Brandon Sanderson",
+        },
+        {
             title: "When the Sea Came Alive",
             goodreads_link: "https://www.goodreads.com/en/book/show/199797834-when-the-sea-came-alive",
             author: "Garrett M. Graff",
