@@ -2,6 +2,12 @@
     import Album from './Album.svelte';
     let albums = [
         {
+            "title": "Cherry Blossoms 2026", 
+            "album_desc": "Photos of Spring 2026 cherry blossoms around New York City.",
+            "img_src": "/thumbs/cherry-blossoms-26/cherry_blossoms_26_t-18.jpg",
+            "link": "/photography/cherry-blossoms-26"
+        },
+        {
             "title": "No Kings (March 2026)",
             "album_desc": "Photos from the No Kings protest in New York City on March 28, 2026.",
             "img_src": "/thumbs/no-kings-march-2026/no_kings_march_2026_t-35.jpg",
