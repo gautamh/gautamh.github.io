@@ -9,6 +9,11 @@
 <script>
     let books2026 = [
         {
+            title: "Spinning Silver",
+            goodreads_link: "https://www.goodreads.com/en/book/show/36896898-spinning-silver",
+            author: "Naomi Novik",
+        },
+        {
             title: "The Devil Reached Toward the Sky",
             goodreads_link: "https://www.goodreads.com/en/book/show/220160123-the-devil-reached-toward-the-sky",
             author: "Garrett M. Graff",
