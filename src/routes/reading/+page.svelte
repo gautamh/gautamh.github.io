@@ -9,6 +9,17 @@
 <script>
     let books2026 = [
         {
+            title: "The Great Train Robbery",
+            goodreads_link: "https://www.goodreads.com/book/show/7682.The_Great_Train_Robbery",
+            author: "Michael Crichton",
+        },
+        {
+            title: "Fifth Sun",
+            goodreads_link: "https://www.goodreads.com/book/show/44244939-fifth-sun",
+            author: "Camilla Townsend",
+            notes_link: "https://drive.google.com/file/d/1NZWk2P1wYYgA3GQgPDVRQKgYOsGUBRMj/view?usp=sharing"
+        },
+        {
             title: "Spinning Silver",
             goodreads_link: "https://www.goodreads.com/en/book/show/36896898-spinning-silver",
             author: "Naomi Novik",
