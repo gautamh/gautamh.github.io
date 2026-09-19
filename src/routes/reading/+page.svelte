@@ -9,6 +9,17 @@
 <script>
     let books2026 = [
         {
+            title: "The Tombs of Atuan",
+            goodreads_link: "https://www.goodreads.com/book/show/13662.The_Tombs_of_Atuan",
+            author: "Ursula K. Le Guin",
+        },
+        {
+            title: "The Information",
+            goodreads_link: "https://www.goodreads.com/en/book/show/8701960-the-information",
+            author: "James Gleick",
+            notes_link: "https://drive.google.com/file/d/11PZ6VQaLBuUcjt3D8b1xsrYT8InItfVK/view?usp=sharing"
+        },
+        {
             title: "The Great Train Robbery",
             goodreads_link: "https://www.goodreads.com/book/show/7682.The_Great_Train_Robbery",
             author: "Michael Crichton",
