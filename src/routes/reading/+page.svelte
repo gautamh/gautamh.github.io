@@ -9,6 +9,12 @@
 <script>
     let books2026 = [
         {
+            title: "Challenger",
+            goodreads_link: "https://www.goodreads.com/en/book/show/199798785-challenger",
+            author: "Adam Higginbotham",
+            notes_link: "https://drive.google.com/file/d/1cbr7HSx73aUM5-5Es4tx9CW2ZBkTVuBR/view?usp=sharing"
+        },
+        {
             title: "The Tombs of Atuan",
             goodreads_link: "https://www.goodreads.com/book/show/13662.The_Tombs_of_Atuan",
             author: "Ursula K. Le Guin",
