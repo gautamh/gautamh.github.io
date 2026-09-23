@@ -2,6 +2,24 @@
     import Album from './Album.svelte';
     let albums = [
         {
+            "title": "Summer 2026",
+            "album_desc": "Summer 2026 photos.",
+            "img_src": "/thumbs/summer-26/summer_26_t-4.jpg",
+            "link": "/photography/summer-26"
+        },
+        {
+            "title": "India Day Parade 2026",
+            "album_desc": "Photos from the 2026 India Day Parade.",
+            "img_src": "/thumbs/india-day-26/india_day_26_t-4.jpg",
+            "link": "/photography/india-day-26"
+        },
+        {
+            "title": "Rooftop Sunsets 2026",
+            "album_desc": "Summer 2026 sunset photos from my building rooftop.",
+            "img_src": "/thumbs/rooftop-sunsets-26/rooftop_sunsets_26_t-15.jpg",
+            "link": "/photography/rooftop-sunsets-26"
+        },
+        {
             "title": "Manhattanhenge May 2026",
             "album_desc": "Mahattanhenge photos from May 2026.",
             "img_src": "/thumbs/manhattanhenge-may-26/manhattanhenge_may_26_t-8.jpg",

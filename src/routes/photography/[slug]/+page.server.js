@@ -8,6 +8,18 @@ const thumbsBaseDir = path.resolve('static/thumbs');
 const thumbsPublicPath = '/thumbs'; // Base URL path for thumbnails
 
 const ALBUM_MAP = {
+    "summer-26": {
+      albumName: "Summer 2026",
+      albumDescription: "Summer 2026 photos",
+    },
+    "india-day-26": {
+      albumName: "India Day Parade 2026",
+      albumDescription: "I happened to walk into the 2026 India Day Parade and also happened to have my camera, so I took some pictures.",
+    },
+    "rooftop-sunsets-26": {
+      albumName: "Rooftop Sunsets 2026",
+      albumDescription: "While I no longer have a window that looks out onto midsummer sunsets, my building rooftop is a nice place for sunset photos.",
+    },
     "manhattanhenge-may-26": {
       albumName: "Manhattanhenge May 2026",
       albumDescription: "Manhattanhenge photos from May 2026, taken at Gantry Plaza State Park.",
